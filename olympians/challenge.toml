@@ -1,0 +1,38 @@
+# Config for olympians challenge, written in TOML 1.0 (https://toml.io).
+# All fields are required unless stated otherwise.
+
+[meta]
+# A unique, mostly-internal ID for this challenge.
+# Must match the name of the challenge directory (where this file is).
+id = "olympians"
+# The ID of the user-facing category this challenge should be grouped under.
+# Must match an existing entry in `../categories.toml`.
+category = "webapp"
+# The rated difficulty of the challenge (shown to the player as a title-cased tag).
+# Must be one of "easy", "medium", "hard".
+difficulty = "medium"
+# The user-facing display name of the challenge.
+name = "Olympians"
+# The user-facing description of the challenge.
+# Supports Markdown + Jinja2.
+description = """
+## Challenge Description (written in Markdown)
+> by Spaghetti
+Run the web application from the supplied files and get the flag.
+"""
+# (optional) A list of tags for the challenge, as displayed by CTFd.
+# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
+tags = ["Web-App-Exploitation"]
+
+
+[scoring]
+# The flag that the user must submit to prove they've solved the challenge.
+flag = "flag{2ln5KOVKYvd1QMN4FL}"
+# The static number of points this challenge is worth.
+points = 15
+
+
+[[hints]]
+content = """
+No hints.
+"""
