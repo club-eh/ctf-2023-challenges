@@ -1,3 +1,3 @@
-# To do. Should we use Alpine for this, or a container specifically for web apps? 
-FROM alpine:latest
-
+FROM php:7.2-apache
+COPY static/ /var/www/html/
+RUN docker-php-ext-install mysqli
