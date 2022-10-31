@@ -1,0 +1,36 @@
+[meta]
+# A unique, mostly-internal ID for this challenge.
+# Must match the name of the challenge directory (where this file is).
+id = "bussin"
+# The ID of the user-facing category this challenge should be grouped under.
+# Must match an existing entry in `../categories.toml`.
+category = "cryptography"
+# The rated difficulty of the challenge (shown to the player as a title-cased tag).
+# Must be one of "easy", "medium", "hard".
+difficulty = "medium"
+# The user-facing display name of the challenge.
+name = "Bussin"
+# The user-facing description of the challenge.
+# Supports Markdown + Jinja2.
+description = """
+## Challenge Description (written in Markdown)
+> by Spaghetti
+Crack the code to get the flag.
+
+022331401242{00102030_4050_01_112131014150}
+"""
+# (optional) A list of tags for the challenge, as displayed by CTFd.
+# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
+tags = ["Cryptography"]
+
+
+[scoring]
+# The flag that the user must submit to prove they've solved the challenge.
+flag = "clubeh{d0n7_b3_4_5qu4r3}"
+# The static number of points this challenge is worth.
+points = 15
+
+[[hints]]
+content = """
+Old cryptography algorithm.
+"""
