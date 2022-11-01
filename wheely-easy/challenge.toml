@@ -16,7 +16,7 @@ description = """
 ## Challenge Description
 > by Spaghetti
 Can you decrypt the code to get the flag? We found some files that might be useful.
-lu3knq{129D2UDB_TD00RCB_2QC_590UM}
+{129D2UDB_TD00RCB_2QC_590UM}
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
@@ -29,12 +29,3 @@ flag = "clubeh{4Tl42_k4RRi32_TH3_W0RLD}"
 # The static number of points this challenge is worth.
 points = 15
 
-
-[[hints]]
-content = """
-An example hint.
-This field supports *Markdown* and multi-line strings.
-"""
-
-[[hints]]
-content = "A second hint. This hint will be displayed underneath the first one."
