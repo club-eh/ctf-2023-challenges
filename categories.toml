@@ -1,6 +1,8 @@
 categories = [
-	"pwn",
+	"web",
 	"crypto",
+	"forensics",
 	"osint",
-	"misc"
+	"reverse",
+	"exploit",
 ]
