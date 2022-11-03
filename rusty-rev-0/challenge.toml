@@ -1,0 +1,25 @@
+[meta]
+id = "rusty-rev-0"
+category = "reverse"
+difficulty = "easy"
+name = "Rusty Rev 0"
+description = """
+> by sudoBash418
+
+We thought we found a flag... but it's hidden inside this executable!
+
+Can you figure out its secret?
+"""
+tags = ["Rust", "Reverse Engineering"]
+
+
+[scoring]
+flag = "clubeh{b1n4ry_r3v3rs1ng_13_fun_f5dd17b2}"
+points = 20
+
+
+[[hints]]
+content = "Static analysis is a good starting place. Ghidra should do the trick."
+
+[[hints]]
+content = "Dynamic analysis can get you the flag; try `gdb`."
