@@ -10,10 +10,10 @@ int main(int argc, char *argv[]) {
 	}
 
 	if (verify_flag(argv[1])) {
-		printf("Flag is valid!\n");
+		printf("Flag is correct\n");
 		return 0;
 	} else {
-		printf("Flag is not valid!\n");
+		printf("Flag is incorrect\n");
 		return 1;
 	};
 }

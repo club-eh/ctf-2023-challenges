@@ -4,8 +4,8 @@ use super::constants::*;
 
 
 /// Returns true if the given data matches the flag, false otherwise.
-fn verify_internal(data: &[u8]) -> bool {
-	// verify flag length
+pub(crate) fn verify_internal(data: &[u8]) -> bool {
+	// check length
 	if data.len() != FLAG_LEN {
 		return false
 	}
@@ -13,7 +13,7 @@ fn verify_internal(data: &[u8]) -> bool {
 	// decode flag
 	let decoded_flag: [u8; FLAG_LEN] = ENCODED_FLAG.map(|c| c ^ XOR_KEY);
 
-	// compare flag
+	// compare input against flag
 	return data == decoded_flag
 }
 

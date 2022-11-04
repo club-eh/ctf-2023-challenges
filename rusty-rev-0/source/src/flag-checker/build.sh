@@ -30,4 +30,4 @@ CCFLAGS=(
 )
 
 
-gcc "${CCFLAGS[@]}" main.c -lverify -o "$OUTDIR"/flag_verifier
+gcc "${CCFLAGS[@]}" main.c -lverify -o "$OUTDIR"/flag-checker

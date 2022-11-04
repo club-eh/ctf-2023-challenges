@@ -22,27 +22,27 @@ echo "  => Building libverify..."
 	./build.sh
 )
 
-echo "  => Building flag_verifier..."
+echo "  => Building flag-checker..."
 (
-	cd src/flag_verifier/
+	cd src/flag-checker/
 	./build.sh
 )
 
-echo "  => Stripping flag_verifier..."
+echo "  => Stripping flag-checker..."
 (
 	cd out/
 	# remove debug info (but leave symbols)
-	strip --strip-debug flag_verifier
+	strip --strip-debug flag-checker
 	# remove Rust stdlib symbols
-	#readelf -sW flag_verifier | grep -E '_ZN3std\w+' -o | xargs -i strip flag_verifier -N {}
+	#readelf -sW flag-checker | grep -E '_ZN3std\w+' -o | xargs -i strip flag-checker -N {}
 )
 
-echo "  => Installing flag_verifier..."
+echo "  => Installing flag-checker..."
 (
-	install -pm755 -t ../static ./out/flag_verifier
+	install -pm755 -t ../static ./out/flag-checker
 )
 
 echo "  => Done"
 (
-	ls -l --color ./out/flag_verifier
+	ls -l --color ./out/flag-checker
 )
