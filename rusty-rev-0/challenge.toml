@@ -19,7 +19,7 @@ points = 20
 
 
 [[hints]]
-content = "Static analysis is a good starting place. Ghidra should do the trick."
+content = "Static analysis is a good place to start. Ghidra should do the trick."
 
 [[hints]]
-content = "Dynamic analysis can get you the flag; try `gdb`."
+content = "Dynamic analysis can get you the flag too; try `gdb`."
