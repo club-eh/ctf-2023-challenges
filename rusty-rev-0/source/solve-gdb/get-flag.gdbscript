@@ -1,0 +1,8 @@
+# set breakpoint in `verify_flag` at bcmp() call
+break *verify_flag+89
+
+# execute (until breakpoint)
+run
+
+# read flag from memory
+x/s $rsi
