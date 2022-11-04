@@ -13,18 +13,18 @@ mkdir -p out/
 # encode flag into constants
 echo "  => Encoding flag into libverify constants..."
 (
-	python encode_flag.py "$FLAG" ./src/libverify/src/constants.rs | bat -pl rust
+	python encode_flag.py "$FLAG" ./libverify/src/constants.rs | bat -pl rust
 )
 
 echo "  => Building libverify..."
 (
-	cd src/libverify/
+	cd libverify/
 	./build.sh
 )
 
 echo "  => Building flag-checker..."
 (
-	cd src/flag-checker/
+	cd flag-checker/
 	./build.sh
 )
 

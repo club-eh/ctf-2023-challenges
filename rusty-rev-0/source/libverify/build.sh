@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$(realpath "$0")")"
 
 
-OUTDIR="../../out"
+OUTDIR="../out"
 
 
 RUSTFLAGS="-C target-cpu=x86-64-v2" cargo build --release

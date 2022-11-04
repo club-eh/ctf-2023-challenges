@@ -2,7 +2,7 @@
 
 set -eu
 
-OUTDIR="../../out"
+OUTDIR="../out"
 
 
 CCFLAGS=(
