@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "solver"
+version = "0.1.0"
+description = ""
+authors = ["sudoBash418 <sudoBash418@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+angr = "^9.2.23"
+monkeyhex = "^1.7.4"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.982"
+rope = "^1.4.0"
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+# for better IDE support
+-Wall
+-std=c11
+-I../out/
