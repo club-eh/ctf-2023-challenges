@@ -44,5 +44,5 @@ echo "  => Installing flag_verifier..."
 
 echo "  => Done"
 (
-	ls -l --color ../static/flag_verifier
+	ls -l --color ./out/flag_verifier
 )

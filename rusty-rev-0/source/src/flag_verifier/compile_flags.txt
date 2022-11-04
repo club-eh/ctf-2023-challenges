@@ -1,4 +1,4 @@
 # for better IDE support
 -Wall
--std=gnu11
+-std=c11
 -I../../out/
