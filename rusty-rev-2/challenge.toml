@@ -1,0 +1,38 @@
+[meta]
+id = "rusty-rev-2"
+category = "reverse"
+difficulty = "hard"
+name = "Rusty Rev 2"
+description = """
+> by sudoBash418
+
+Looks like they've gotten smarter: this time the flag is locked behind a hash function!  
+You might need the dark art of optimization for this one.
+
+I'm sure you'll figure it out.  
+Can't promise you won't be cursed in the process though :P
+"""
+tags = ["Rust", "Reverse Engineering", "Symbolic Execution"]
+
+
+[scoring]
+flag = "clubeh{5ym601ic_3x3cuti0n_i5_3v3n_m0r3_fun_bb458f72}"
+points = 50
+
+
+# hint to avoid derailment and clarify the "might" in the description
+[[hints]]
+content = "This challenge can be solved similarly to Rusty Rev 1 - but you'll want to optimize your script."
+
+# hint for optimization (adding these constraints is important)
+[[hints]]
+content = """
+Don't forget the flag format:
+1. starts with `clubeh{`
+2. ends with `}`
+3. contains only ASCII characters
+"""
+
+# my optimized script takes ~1 minute (Ryzen 5600X, CPython 3.11.0)
+[[hints]]
+content = "A well-optimized script should be able to get the flag in under 2 minutes."

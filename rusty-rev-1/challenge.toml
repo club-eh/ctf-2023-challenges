@@ -1,0 +1,36 @@
+[meta]
+id = "rusty-rev-1"
+category = "reverse"
+difficulty = "medium"
+name = "Rusty Rev 1"
+description = """
+> by sudoBash418
+
+This one seems a bit trickier than the last.
+
+Good news though: I received word of a new form of black magic called "symbolic execution" - supposedly it can extract flags from even the trickiest of binaries!
+
+Have fun!
+"""
+tags = ["Rust", "Reverse Engineering", "Symbolic Execution"]
+
+
+[scoring]
+flag = "clubeh{cr4ck1ng_4_ru5ty_l0ck_20fbbc23}"
+points = 35
+
+
+[[hints]]
+content = "`angr` should prove useful."
+
+# my *unoptimized* script takes ~5 seconds
+[[hints]]
+content = "Your script should not take more than a minute to find the solution."
+
+# for people who are stuck, possibly new to angr, and wondering what on earth they're doing wrong
+[[hints]]
+content = """
+If you know C, try testing your script out on a proof-of-concept C binary to better understand what's happening.
+
+If you don't know C, you can find practice examples online (with source code) for the same purpose.
+"""
