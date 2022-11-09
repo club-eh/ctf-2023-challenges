@@ -1,0 +1,23 @@
+[meta]
+id = "git-remembers-all"
+category = "forensics"
+difficulty = "medium"
+name = "Git Remembers All"
+description = """
+> by sudoBash418
+
+<TODO: something something, "they" exposed a secret key in their webapp repo>
+
+Unfortunately, it looks like we were too late - the secret key is nowhere to be found!  
+Can you help us out?
+"""
+tags = ["Forensics", "Git"]
+
+
+[scoring]
+flag = "clubeh{1gn0r4nc3_15_bl155_c5fec34a}"
+points = 15
+
+
+[[hints]]
+content = """`git commit --amend && git push --force` is not always a silver bullet."""
