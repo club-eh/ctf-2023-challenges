@@ -4,7 +4,7 @@
 id = "bussin"
 # The ID of the user-facing category this challenge should be grouped under.
 # Must match an existing entry in `../categories.toml`.
-category = "cryptography"
+category = "crypto"
 # The rated difficulty of the challenge (shown to the player as a title-cased tag).
 # Must be one of "easy", "medium", "hard".
 difficulty = "medium"
@@ -13,8 +13,8 @@ name = "Bussin"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
 > by Spaghetti
+
 Crack the code to get the flag.
 
 022331401242{00102030_4050_01_112131014150}
@@ -31,6 +31,4 @@ flag = "clubeh{d0n7_b3_4_5qu4r3}"
 points = 15
 
 [[hints]]
-content = """
-Old cryptography algorithm.
-"""
+content = "Old cryptography algorithm."
