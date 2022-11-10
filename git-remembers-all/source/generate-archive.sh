@@ -29,6 +29,7 @@ if [[ -e "$WORKDIR" ]]; then
 	rm -rf "$WORKDIR"
 fi
 mkdir -p "$WORKDIR"/repo-{local,remote}
+echo '*' > "$WORKDIR"/.gitignore
 
 
 cd "$WORKDIR"/repo-local
