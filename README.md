@@ -61,3 +61,6 @@ Each challenge directory follows the given format:
   If this directory exists, the contents will be deployed on the challenge server according to the `[dynamic.*]` section(s) of the `challenge.toml`.
 - A `healthcheck/` subdirectory (required if `dynamic` is present).  
   This directory will be used for healthcheck scripts (details TBD).
+
+Additionally, a subdirectory named `source` may be present as well. This is meant for any extra files that aren't relevant to deployment, but are otherwise useful to challenge development.  
+For example, a binary reversing challenge would have the binary's source code in `source/`.
