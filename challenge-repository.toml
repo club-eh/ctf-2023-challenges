@@ -1,3 +1,6 @@
+# Metadata for the CTF challenge repository
+
+# Define challenge categories
 categories = [
 	"web",
 	"crypto",
