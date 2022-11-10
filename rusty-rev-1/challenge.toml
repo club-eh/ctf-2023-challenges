@@ -12,7 +12,7 @@ Good news though: I received word of a new form of black magic called "symbolic 
 
 Have fun!
 """
-tags = ["Rust", "Reverse Engineering", "Symbolic Execution"]
+tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
 
 
 [scoring]

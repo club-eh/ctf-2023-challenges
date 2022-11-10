@@ -12,7 +12,7 @@ You might need the dark art of optimization for this one.
 I'm sure you'll figure it out.  
 Can't promise you won't be cursed in the process though :P
 """
-tags = ["Rust", "Reverse Engineering", "Symbolic Execution"]
+tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
 
 
 [scoring]

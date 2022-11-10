@@ -10,7 +10,7 @@ We thought we found a flag... but it's hidden inside this executable!
 
 Can you figure out its secret?
 """
-tags = ["Rust", "Reverse Engineering"]
+tags = ["Reverse Engineering", "Rust"]
 
 
 [scoring]
