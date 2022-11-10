@@ -6,8 +6,8 @@
 # Must match the name of the challenge directory (where this file is).
 id = "example"
 # The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../categories.toml`.
-category = "stego"
+# Must match an existing entry in `../challenge-monorepo.toml`.
+category = "forensics"
 # The rated difficulty of the challenge (shown to the player as a title-cased tag).
 # Must be one of "easy", "medium", "hard".
 difficulty = "easy"
@@ -34,14 +34,14 @@ tags = ["Steganography"]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "flag{m3t@da1a}"
 # The static number of points this challenge is worth.
-points = 15
+points = 0
 
+
+[[hints]]
+content = "An example hint."
 
 [[hints]]
 content = """
-An example hint.
-This field supports *Markdown* and multi-line strings.
+A second hint. This hint will be displayed underneath the first one.  
+Hints also support multi-line strings and *Markdown*.
 """
-
-[[hints]]
-content = "A second hint. This hint will be displayed underneath the first one."
