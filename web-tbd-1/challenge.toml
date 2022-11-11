@@ -1,0 +1,18 @@
+# NOTE: author is Meaghan
+# TODO: add name + description, determine point value
+
+[meta]
+id = "web-tbd-1"
+category = "web"
+difficulty = "easy"
+tags = ["Web"]
+
+
+[scoring]
+flag = "clubeh{3ch1dn@_A6E2C145}"
+points = 0
+
+
+[dynamic.webserver]
+build = "Containerfile"
+ports = { web = 80 }
