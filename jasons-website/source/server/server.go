@@ -67,7 +67,9 @@ func run() {
 		Views: templateEngine,
 	})
 
-	app.Static("/assets", "./assets")
+	app.Static("/assets", "./assets", fiber.Static{
+		Compress: true, // cache compressed files in-memory
+	})
 
 	app.Get("/", home)
 
@@ -78,10 +80,6 @@ func run() {
 		}
 
 		return ctx.Render("login", fiber.Map{}, "layouts/main")
-	})
-
-	app.Get("*", func(ctx *fiber.Ctx) error {
-		return ctx.Redirect("/")
 	})
 
 	app.Post("/login", login)
