@@ -1,26 +1,31 @@
-FROM golang:1.19-buster AS build
+FROM cgr.dev/chainguard/go:1.19 as build
 
-WORKDIR /web
+WORKDIR /build
 
-COPY ./server/go.mod ./
-COPY ./server/go.sum ./
-
+# download dependencies
+COPY --chown=nonroot ./server/go.* ./
 RUN go mod download
 
-COPY ./server ./
+# copy app source code
+COPY --chown=nonroot ./server ./
 
-RUN go build -o main
+# build the app
+RUN go build -o main .
 
-FROM gcr.io/distroless/base-debian10
+
+# use musl-based busybox so entrypoint script can run
+FROM cgr.dev/chainguard/busybox:latest
 
 WORKDIR /web
 
-COPY ./server/assets ./assets
-COPY ./server/views ./views
+# copy built binary
+COPY --from=build /build/main ./main
+# copy server files
+COPY ./server/assets/ ./assets/
+COPY ./server/views/ ./views/
+# copy flag
 COPY ./flag.txt /flag.txt
-COPY --from=build /web/main ./main
+# copy entrypoint
+COPY --chmod=755 ./entrypoint.sh /entrypoint.sh
 
-ENV PORT=":8080"
-ENV SECRET="_X1}?Tw:h2vQv-0r-+WQJqKF=wj])3FY"
-
-ENTRYPOINT ["/web/main"]
+ENTRYPOINT ["/entrypoint.sh"]
