@@ -19,14 +19,14 @@ const (
 	routeHome  = "/"
 )
 
-// File to load th flag.
+// File containing the flag.
 const (
 	flagFile = "/flag.txt"
 )
 
 // Credentials for the user.
 var (
-	username     = "admin"
+	username     = "jason"
 	passwordHash = []byte("$2a$10$NqtIPVwjrKmFOW4rUAMZqecVhlLr8WqYeSb.3xHS7iNkbYOy3tpoS")
 )
 
