@@ -22,7 +22,7 @@ description = """
 
 We have recovered some data from the hackers. We're sure that they've hidden a message within, can you recover it?
 
-For example, here is an auto-generated link to a file the player will need: [unknowndata]({{ linkify.static("unknowndata") }}).
+File: [unknowndata]({{ linkify.static("unknowndata") }}).
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
