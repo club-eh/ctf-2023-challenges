@@ -1,0 +1,63 @@
+body {
+	background-color: white;
+	color: #000000;
+	font-size: 18px;
+	font-family: Raleway, sans-serif;
+	line-height: 1.5;
+}
+.container {
+	margin:0 auto;
+	width:960px;
+}
+.visuallyhidden {
+	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+	position: absolute;
+	overflow: hidden;
+}
+.flexbox {
+	align-items: center;
+	display: flex;
+}
+
+/* Header */
+header {
+	background-color: #000000;
+	padding: 10px;
+}
+.site-menu {
+	margin-left: 208px;
+}
+.site-menu li {
+	margin-right: 30px;
+}
+.site-menu a {
+	color: #f1f7f6;
+	text-decoration: none;
+}
+.site-menu a:hover {
+	border-bottom: 2px solid #abddd5;
+	cursor: pointer;
+}
+
+/* Banner */
+.banner {
+	background: url("../img/Monsters-of-Greek-Mythology.jpg") center center no-repeat;
+    height: 362px;
+}
+h1 {
+    font-family: Alegreya, serif;
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h2 {
+	font-family: Alegreya, serif;
+	font-size: 36px;
+	padding-bottom: 36px;
+}
+h2 {
+	line-height: 44px;
+}
