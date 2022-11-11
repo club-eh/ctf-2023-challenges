@@ -1,0 +1,21 @@
+[meta]
+id = "jasons-website"
+category = "web"
+difficulty = "medium"
+name = "Jason's New Website"
+description = """
+> by Arshdeep
+
+Hi! I'm Jason, and I've recently made my very own website using Go!
+
+Unfortunately, some unscrupulous actors have managed to get access to my data.  
+I don't know how it happened - I even used JWTs for security!
+
+Can you help me determine how they got in?
+"""
+tags = ["Web Exploitation", "JWT", "Go"]
+
+
+[scoring]
+flag = "clubeh{1_4h0ugh4_jw45_w3r3_mag1c_2b7887ce}"
+points = 0
