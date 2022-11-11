@@ -1,3 +1,12 @@
+FROM cgr.dev/chainguard/busybox:latest as vendored
+
+WORKDIR /build
+
+COPY --chown=nonroot ./download-vendored.sh ./
+
+RUN sh download-vendored.sh assets
+
+
 FROM cgr.dev/chainguard/go:1.19 as build
 
 WORKDIR /build
@@ -20,6 +29,8 @@ WORKDIR /web
 
 # copy built binary
 COPY --from=build /build/main ./main
+# copy vendored assets
+COPY --from=vendored /build/assets ./assets/vendor
 # copy server files
 COPY ./server/assets/ ./assets/
 COPY ./server/views/ ./views/
