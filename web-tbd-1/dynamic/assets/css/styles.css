@@ -9,13 +9,6 @@ body {
 	margin:0 auto;
 	width:960px;
 }
-.visuallyhidden {
-	clip: rect(0 0 0 0);
-	height: 1px; width: 1px;
-	margin: -1px; padding: 0; border: 0;
-	position: absolute;
-	overflow: hidden;
-}
 .flexbox {
 	align-items: center;
 	display: flex;
@@ -52,12 +45,4 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-}
-h2 {
-	font-family: Alegreya, serif;
-	font-size: 36px;
-	padding-bottom: 36px;
-}
-h2 {
-	line-height: 44px;
 }
