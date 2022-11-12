@@ -2,8 +2,8 @@
 
 set -eu
 
-# prepend colon to port number
-export PORT=":${PORT}"
+# set listening port
+export PORT=":1337"
 # generate a random secret
 export SECRET="$(head -c32 /dev/urandom | base64 -w0)"
 
