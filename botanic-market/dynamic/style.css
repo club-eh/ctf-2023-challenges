@@ -1,0 +1,35 @@
+body{
+	background-color: #000000;
+	font-family: 'Courier New', monospace !important;
+}
+p{
+	color: #FFFFFF;
+}
+.form-label{
+	color: #FFFFFF;
+}
+.popover{
+	background-color: #C19A4D;
+}
+.background{
+	background-color: #7e7e7e;
+	opacity: 0.8;
+}
+.banner{
+	max-width: 80%;
+	height: auto;
+}
+.sign{
+	max-width: 100%;
+}
+.picture{
+	max-width: 30%;
+	height: 30%;
+}
+.picture:hover{
+	cursor: pointer;
+}
+.item{
+	position: relative;
+	height: auto;
+}
