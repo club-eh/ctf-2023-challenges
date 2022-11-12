@@ -13,14 +13,13 @@ Can you decode this cipher? The only lead we have is `pegasus`
   
   This uses a polybius cipher in a col/row notation. `pegasus` is the starting key as seen below.
 
-    || 0 | 1 | 2 | 3 | 4 | 5 |
-  ----------------------------
-  0 || p | e | g | a | s | u |
-  1 || b | c | d | f | h | i |
-  2 || j | k | l | m | n | o |
-  3 || q | r | t | v | w | x |
-  4 || y | z | 0 | 1 | 2 | 3 |
-  5 || 4 | 5 | 6 | 7 | 8 | 9 |
+    || 0 | 1 | 2 | 3 | 4 | 5 |<br>
+  0 || p | e | g | a | s | u |<br>
+  1 || b | c | d | f | h | i |<br>
+  2 || j | k | l | m | n | o |<br>
+  3 || q | r | t | v | w | x |<br>
+  4 || y | z | 0 | 1 | 2 | 3 |<br>:
+  5 || 4 | 5 | 6 | 7 | 8 | 9 |<br>
 		
   clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}
 </details>
