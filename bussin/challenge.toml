@@ -14,10 +14,9 @@ name = "Bussin"
 # Supports Markdown + Jinja2.
 description = """
 > by Spaghetti
+Can you decode this cipher? The only lead we have is `pegasus`.
 
-Crack the code to get the flag.
-
-022331401242{00102030_4050_01_112131014150}
+112250011041{21244235_0154_05_150350051354_3541143141254155}
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
@@ -26,7 +25,7 @@ tags = ["Cryptography"]
 
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
-flag = "clubeh{d0n7_b3_4_5qu4r3}"
+flag = "clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}"
 # The static number of points this challenge is worth.
 points = 15
 
