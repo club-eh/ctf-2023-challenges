@@ -10,7 +10,6 @@ if [[ -n "${1:-}" ]]; then
 fi
 
 
-JQUERY_VER=3.6.1
 BOOTSTRAP_VER=5.2.2
 
 
@@ -18,5 +17,5 @@ dl() {
     wget "$1" -O "$2"
 }
 
-dl "https://code.jquery.com/jquery-${JQUERY_VER}.min.js" 'jquery.min.js'
 dl "https://cdn.jsdelivr.net/npm/bootstrap@${BOOTSTRAP_VER}/dist/css/bootstrap.min.css" 'bootstrap.min.css'
+dl "https://cdn.jsdelivr.net/npm/bootstrap@${BOOTSTRAP_VER}/dist/js/bootstrap.min.js" 'bootstrap.min.js'
