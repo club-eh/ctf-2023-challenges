@@ -6,7 +6,7 @@ Easy cryptography challenge by Spaghetti
 
 Can you decrypt the code to get the flag? We found a tool that might be useful.
 
-{129D2UDB_TD00RCB_2QC_590UM_2DPL03dJ}
+{129D2UDB_TD00RCB_2QC_590UM_2DPL03DJ}
 
 
 <details>
