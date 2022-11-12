@@ -1,0 +1,10 @@
+# Containers used for this application
+services:
+  # Apache/PHP service
+  apache-php:
+    container_name: apache-php
+    build: .
+    ports: 
+      - "80:80"
+    environment:
+      FLAG: "clubeh{c00k13_4u7h3n71c4710n_15_n07_54f3_eEr328VD}"
