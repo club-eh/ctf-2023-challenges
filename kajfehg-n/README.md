@@ -201,11 +201,11 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>PRINT THE OPEN VARIABLE'S CHARACTER	;j
 <br>JUMP TO end if nine IS EQUAL TO nine;go to end and print `}` to finish the flag
 
-<br>; label for `age` this is a correct path nine=161 v1=103 v2=262
+<br>; label for `age` this is a correct path nine=161 v1=117 v2=103
 <br>DEFINE THE NEW LABEL label8
 <br>OPEN THE VARIABLE v1
-<br>ASSIGN -165 TO THE OPEN VARIABLE
-<br>ADD v2 TO THE OPEN VARIABLE			;262+-165=97
+<br>ASSIGN -6 TO THE OPEN VARIABLE
+<br>ADD v2 TO THE OPEN VARIABLE			;103+-6=97
 <br>PRINT THE OPEN VARIABLE'S CHARACTER	;a
 <br>OPEN THE VARIABLE v2
 <br>ASSIGN 6 TO THE OPEN VARIABLE
