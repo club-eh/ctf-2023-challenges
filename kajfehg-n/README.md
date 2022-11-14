@@ -17,9 +17,9 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>ASSIGN 98 TO THE OPEN VARIABLE
 
 <br>;print `club`
-<br>PRINT THE CHARACTER WITH ASCII VALUE 99
-<br>PRINT THE CHARACTER WITH ASCII VALUE 108
-<br>PRINT THE CHARACTER WITH ASCII VALUE 117
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 99
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 108
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 117
 <br>PRINT THE OPEN VARIABLE'S CHARACTER
 
 <br>;create the last variable `nine` used for tricks later
@@ -49,7 +49,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 
 <br>;prints '}' and exits
 <br>DEFINE NEW LABEL end
-<br>PRINT THE CHARACTER WITH ASCII VALUE 125
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 125
 <br>END THIS PROGRAM
 
 <br>;first jump or label, prints `{` and jumps to the next block
@@ -220,7 +220,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 
 <br>; jump for `_` jump conditions at end depend on progress through program
 <br>DEFINE NEW LABEL label4
-<br>PRINT THE CHARACTER WITH ASCII VALUE 95
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 95
 <br>JUMP TO label5 IF v1 IS GREATER THAN v2		;path for `l4nguag3`
 <br>JUMP TO label9 IF nine IS GREATER THAN v1	;correct path for last 8 chars `ej65h34j`
 <br>JUMP TO label6 v1 IS EQUAL TO v1			;path for fake last 8 chars `h34jej65`
