@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "pillowcode"
+version = "0.1.0"
+description = ""
+authors = ["sudoBash418 <sudoBash418@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
