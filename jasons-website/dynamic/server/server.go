@@ -9,7 +9,6 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/handlebars"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/joho/godotenv"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -45,9 +44,6 @@ var (
 )
 
 func init() {
-	// Load environment variables.
-	godotenv.Load()
-
 	var err error
 	port, err = getEnvVariable("PORT")
 	if err != nil {
