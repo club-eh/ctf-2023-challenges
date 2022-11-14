@@ -27,3 +27,8 @@ and the secret as the secret you got from step 2.
 ```sh
 curl -H 'Cookie: token=<token>' <url>
 ```
+
+`NOTE`: There is also a 32 characters password `3f*So0gmedVPRsoDD!kxx7fCfjfNkn*FW`, which
+can be used to login directly, the program file contains the bcrypt hash of the password.
+It is almost impossible to get the password using password cracking from the hash,
+therefore the hash is hard coded in the program itself.

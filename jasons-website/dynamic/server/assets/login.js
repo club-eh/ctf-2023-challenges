@@ -32,14 +32,14 @@ function onDocumentLoad() {
       })
     });
 
-    // parse + handle JSON response
-    const data = await resp.json();
-    if ("error" in data) {
-      // show login error as alert
-      alertMessage(data["error"]);
+    // check if login succeeded
+    if (resp.status === 200) {
+      // navigate to homepage
+      window.location.href = "/";
     } else {
-      // navigate to redirected page
-      window.location.href = resp.url;
+      // parse + display error message
+      const data = await resp.json();
+      alertMessage(data["error"]);
     }
 
   });

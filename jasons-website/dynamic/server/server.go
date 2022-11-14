@@ -26,7 +26,7 @@ const (
 // Credentials for the user.
 var (
 	username     = "jason"
-	passwordHash = []byte("$2a$10$NqtIPVwjrKmFOW4rUAMZqecVhlLr8WqYeSb.3xHS7iNkbYOy3tpoS")
+	passwordHash = []byte("$2a$10$tC/Uc4K0a9tkVEGd1DWOl.p3.QYixgTYpfgSRcUelfoS0qpq7UVC.")
 )
 
 // Environment variables mapping.
@@ -134,34 +134,38 @@ type loginRequestBody struct {
 func login(ctx *fiber.Ctx) error {
 	requestBody := &loginRequestBody{}
 	responseBody := fiber.Map{}
+	var isValidPassword bool
 
 	if err := ctx.BodyParser(requestBody); err != nil {
+		ctx.Status(fiber.StatusBadRequest)
 		responseBody["error"] = errInvalidRequestBody.Error()
 	}
 
-	// Validate credentials.
-	if requestBody.Username != username {
-		responseBody["error"] = errInvalidCredentials.Error()
+	if err := bcrypt.CompareHashAndPassword(passwordHash, []byte(requestBody.Password)); err == nil {
+		isValidPassword = true
 	}
 
-	if err := bcrypt.CompareHashAndPassword(passwordHash, []byte(requestBody.Password)); err != nil {
+	// Validate credentials.
+	if requestBody.Username == username && isValidPassword {
+		// Create authorization token.
+		token, err := createToken()
+		if err != nil {
+			ctx.Status(500)
+			return errInternalServerError
+		}
+
+		ctx.Cookie(&fiber.Cookie{
+			Name:     "token",
+			Value:    token,
+			HTTPOnly: true,
+		})
+	} else {
+		ctx.Status(fiber.StatusUnauthorized)
 		responseBody["error"] = errInvalidCredentials.Error()
 	}
 
 	// Check for custom headers.
 	checkHeaders(ctx, responseBody)
-
-	// Create authorization token.
-	token, err := createToken()
-	if err != nil {
-		return err
-	}
-
-	ctx.Cookie(&fiber.Cookie{
-		Name:     "token",
-		Value:    token,
-		HTTPOnly: true,
-	})
 
 	return ctx.JSON(responseBody)
 }
