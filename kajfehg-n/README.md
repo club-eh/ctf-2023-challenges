@@ -223,7 +223,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>PRINT THE CHARACTER WITH THE ASCII VALUE 95
 <br>JUMP TO label5 IF v1 IS GREATER THAN v2		;path for `l4nguag3`
 <br>JUMP TO label9 IF nine IS GREATER THAN v1	;correct path for last 8 chars `ej65h34j`
-<br>JUMP TO label6 v1 IS EQUAL TO v1			;path for fake last 8 chars `h34jej65`
+<br>JUMP TO label6 IF v1 IS EQUAL TO v1			;path for fake last 8 chars `h34jej65`
 
 <br>; jump for "l4ngu" v1(open)=99 v2=49 nine=58
 <br>DEFINE THE NEW LABEL label5
