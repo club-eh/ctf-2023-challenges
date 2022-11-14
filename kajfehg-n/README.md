@@ -48,7 +48,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>JUMP TO label2 IF  nine IS EQUAL TO nine	;goes to `wrong` path and ends
 
 <br>;prints '}' and exits
-<br>DEFINE NEW LABEL end
+<br>DEFINE THE NEW LABEL end
 <br>PRINT THE CHARACTER WITH THE ASCII VALUE 125
 <br>END THIS PROGRAM
 
@@ -97,7 +97,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>br>ASSIGN -1 TO THE OPEN VARIABLE
 <br>ADD v1 TO THE OPEN VARIABLE			;54+-1=53
 <br>PRINT THE OPEN VARIABLE'S CHARACTER	;5
-<br>JUMP TO end if nine IS EQUAL TO nine
+<br>JUMP TO end IF nine IS EQUAL TO nine
 
 <br>;fake jump prints `wrong`
 <br>DEFINE THE NEW LABEL label2
@@ -199,7 +199,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>ASSIGN 54 TO THE OPEN VARIABLE
 <br>ADD v1 TO THE OPEN VARIABLE			;52+54=106
 <br>PRINT THE OPEN VARIABLE'S CHARACTER	;j
-<br>JUMP TO end if nine IS EQUAL TO nine;go to end and print `}` to finish the flag
+<br>JUMP TO end IF nine IS EQUAL TO nine;go to end and print `}` to finish the flag
 
 <br>; label for `age` this is a correct path nine=161 v1=117 v2=103
 <br>DEFINE THE NEW LABEL label8
@@ -219,7 +219,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>JUMP TO label4 IF nine IS GREATER THAN v2	;goes to correct path for last 9 chars `_ej65h34j`
 
 <br>; jump for `_` jump conditions at end depend on progress through program
-<br>DEFINE NEW LABEL label4
+<br>DEFINE THE NEW LABEL label4
 <br>PRINT THE CHARACTER WITH THE ASCII VALUE 95
 <br>JUMP TO label5 IF v1 IS GREATER THAN v2		;path for `l4nguag3`
 <br>JUMP TO label9 IF nine IS GREATER THAN v1	;correct path for last 8 chars `ej65h34j`
