@@ -6,7 +6,6 @@ require (
 	github.com/gofiber/fiber/v2 v2.39.0
 	github.com/gofiber/template v1.7.2
 	github.com/golang-jwt/jwt/v4 v4.4.2
-	github.com/joho/godotenv v1.4.0
 	golang.org/x/crypto v0.2.0
 )
 
