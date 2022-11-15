@@ -15,4 +15,4 @@ points = 0
 
 [dynamic.webserver]
 build = "Containerfile"
-ports = { web = 80 }
+ports = { web = 1337 }
