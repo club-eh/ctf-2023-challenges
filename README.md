@@ -29,15 +29,13 @@ repo/
 │  ├─ challenge.toml
 │  └─ static/
 │     └─ hidden-message.png
-├─ sql-injection-with-source/
+├─ sql-injection/
 │  ├─ challenge.toml
-│  ├─ dynamic/
-│  │  ├─ docker-compose.yaml
-│  │  ├─ Dockerfile
-│  │  ├─ src/
-│  │  └─ index.php
-│  └─ static/
-│     └─ index.php
+│  └─ dynamic/
+│     ├─ docker-compose.yaml
+│     ├─ Dockerfile
+│     └─ src/
+│        └─ index.php
 ├─ <challenge-id>/
 │  ├─ challenge.toml
 │  ├─ [dynamic/]
