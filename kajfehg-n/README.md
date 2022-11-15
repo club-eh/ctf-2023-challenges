@@ -26,6 +26,10 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>DECLARE THE NEW VARIABLE nine
 <br>OPEN THE VARIABLE nine
 <br>ASSIGN 9 TO THE OPEN VARIABLE
+
+<br>;print `eh`
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 101
+<br>PRINT THE CHARACTER WITH THE ASCII VALUE 104
 <br>JUMP TO label1 IF v1 IS GREATER THAN nine
 
 <br>; label for `4ge` the first char is incorrect but will merge to give a partially correct output
