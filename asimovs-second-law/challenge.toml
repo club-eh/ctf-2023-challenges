@@ -1,0 +1,27 @@
+[meta]
+id = "asimovs-second-law"
+category = "web"
+difficulty = "easy"
+name = "Asimov's Second Law"
+description = """
+> by sudoBash418
+
+Our playtesters said this challenge is so easy, even Googlebot could solve it.
+
+So I made some tweaks to ensure Googlebot doesn't stand a chance.
+"""
+tags = ["Web"]
+
+
+[scoring]
+flag = "clubeh{h1d1ng_fr0m_4h3_r0b045_7d37c0ec}"
+#points = 0  # TODO
+
+
+[[hints]]
+content = "What part of a website does Googlebot visit first?"
+
+
+[dynamic.webserver]
+build = "Containerfile"
+ports = { web = 1337 }
