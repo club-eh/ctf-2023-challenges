@@ -33,7 +33,7 @@ repo/
 │  ├─ challenge.toml
 │  └─ dynamic/
 │     ├─ docker-compose.yaml
-│     ├─ Dockerfile
+│     ├─ Containerfile
 │     └─ src/
 │        └─ index.php
 ├─ <challenge-id>/
