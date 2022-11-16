@@ -1,12 +1,3 @@
-FROM cgr.dev/chainguard/busybox:latest as vendored
-
-WORKDIR /build
-
-COPY --chown=nonroot ./download-vendored.sh ./
-
-RUN sh download-vendored.sh assets
-
-
 FROM cgr.dev/chainguard/go:1.19 as build
 
 WORKDIR /build
@@ -14,11 +5,8 @@ WORKDIR /build
 # download dependencies
 COPY --chown=nonroot ./server/go.* ./
 RUN go mod download
-
-# copy app source code
-COPY --chown=nonroot ./server ./
-
-# build the app
+# copy source code and build the app
+COPY --chown=nonroot ./server/*.go ./
 RUN go build -o main .
 
 
@@ -27,16 +15,18 @@ FROM cgr.dev/chainguard/busybox:latest
 
 WORKDIR /web
 
+# download vendored assets
+RUN --mount=source=download-vendored.sh,target=/dl.sh ["/dl.sh", "assets/vendor"]
+
 # copy built binary
 COPY --from=build /build/main ./main
-# copy vendored assets
-COPY --from=vendored /build/assets ./assets/vendor
+
 # copy server files
 COPY ./server/assets/ ./assets/
 COPY ./server/views/ ./views/
 # copy flag
-COPY ./flag.txt /flag.txt
-# copy entrypoint
-COPY --chmod=755 ./entrypoint.sh /entrypoint.sh
+COPY --chown=root:nonroot --chmod=640 ./flag.txt /flag.txt
 
+# install entrypoint script
+COPY --chmod=755 ./entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
