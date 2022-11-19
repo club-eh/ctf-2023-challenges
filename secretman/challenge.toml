@@ -7,7 +7,7 @@
 id = "secretman"
 # The ID of the user-facing category this challenge should be grouped under.
 # Must match an existing entry in `../categories.toml`.
-category = "reversing"
+category = "reverse"
 # The rated difficulty of the challenge (shown to the player as a title-cased tag).
 # Must be one of "easy", "medium", "hard".
 difficulty = "medium"
