@@ -1,0 +1,2 @@
+Simply run `faketime -f x100000000 ./hacking-through-time`
+See https://github.com/wolfcw/libfaketime for details about the `faketime` command.
