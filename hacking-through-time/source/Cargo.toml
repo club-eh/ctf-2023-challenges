@@ -1,0 +1,11 @@
+[package]
+name = "hacking-through-time"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+lto = true			# enable LTO
+codegen-units = 1	# better LTO
+opt-level = 3		# aggressively optimize for better obfuscation (ie. inlining some stdlib calls)
+strip = true		# remove debuginfo and symbols
+panic = "abort"		# disable backtraces in our code (doesn't affect stdlib)
