@@ -1,0 +1,25 @@
+[meta]
+id = "hacking-through-time"
+category = "reverse"
+difficulty = "medium"
+name = "Hacking Through Time"
+description = """
+> by sudoBash418
+
+Run the executable and it will give you the flag... eventually. In a year or two.
+
+Think you can manipulate time?
+"""
+tags = ["Reverse Engineering", "Hooking"]
+
+
+[scoring]
+flag = "clubeh{0h_h0w_71m3_fl135_wh3n_y0u_h4ck_7h3_m41nfr4m3_ab40440b}"
+#points = 0  # TODO
+
+
+[[hints]]
+content = "Tracing library calls might help."
+
+[[hints]]
+content = "This ain't `exploit`: nothing's stopping you from hooking whatever you want."
