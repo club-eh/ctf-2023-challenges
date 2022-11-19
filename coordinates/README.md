@@ -1,6 +1,6 @@
 # Coordinates
 
-Medium forensics challenge by Spaghetti
+Easy forensics challenge by Spaghetti
 		
 ### Challenge Question
 

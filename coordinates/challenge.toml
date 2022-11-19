@@ -1,7 +1,7 @@
 [meta]
 id = "coordinates"
 category = "forensics"
-difficulty = "medium"
+difficulty = "easy"
 name = "Coordinates"
 description = """
 > by Spaghetti
