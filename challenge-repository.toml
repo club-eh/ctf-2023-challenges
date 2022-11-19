@@ -6,6 +6,7 @@ categories = [
 	"crypto",
 	"forensics",
 	"osint",
+	"misc",
 	"reverse",
 	"exploit",
 ]
