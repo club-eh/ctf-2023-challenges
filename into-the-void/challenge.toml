@@ -1,0 +1,45 @@
+# This is an example challenge definition, written in TOML 1.0 (https://toml.io).
+# All fields are required unless stated otherwise.
+
+[meta]
+# A unique, mostly-internal ID for this challenge.
+# Must match the name of the challenge directory (where this file is).
+id = "into-the-void"
+# The ID of the user-facing category this challenge should be grouped under.
+# Must match an existing entry in `../challenge-monorepo.toml`.
+category = "forensics"
+# The rated difficulty of the challenge (shown to the player as a title-cased tag).
+# Must be one of "easy", "medium", "hard".
+difficulty = "medium"
+# The user-facing display name of the challenge.
+name = "into-the-void"
+# The user-facing description of the challenge.
+# Supports Markdown + Jinja2.
+description = """
+## Challenge Description (written in Markdown)
+
+> by TetraTarius
+
+
+
+Download: [void.png]({{ linkify.static("void.png") }}).
+"""
+# (optional) A list of tags for the challenge, as displayed by CTFd.
+# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
+tags = ["Steganography"]
+
+
+[scoring]
+# The flag that the user must submit to prove they've solved the challenge.
+flag = "clubeh{plA70_0n_7hE_W1RE}"
+# The static number of points this challenge is worth.
+points = 50
+
+
+[[hints]]
+content = "challenge can be considered 'steganography'"
+
+[[hints]]
+content = """
+look up common stego tools, what are common techniques for hiding data within images? maybe there's portions of the data not being used?
+"""
