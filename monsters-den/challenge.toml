@@ -1,0 +1,21 @@
+[meta]
+id = "web-tbd-1"
+category = "web"
+difficulty = "easy"
+name = "Monsters Den"
+description = """
+> by Artemis
+
+We found one of 4yph0n's old websites still online - maybe these pages have some information we could use to track them down?
+"""
+tags = ["Web"]
+
+
+[scoring]
+flag = "clubeh{3ch1dn@_A6E2C145}"
+#points = 0  # TODO
+
+
+[dynamic.webserver]
+build = "Containerfile"
+ports = { web = 1337 }
