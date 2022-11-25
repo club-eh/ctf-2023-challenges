@@ -1,0 +1,19 @@
+[meta]
+id = "poc-or-gtfo"
+category = "misc"
+difficulty = "easy"
+name = "PoC || GTFO"
+description = """
+> by Spaghetti
+There is a flag hidden within this PDF newsletter, can you find it?
+
+[poc-or-gtfo.pdf]({{ linkify.static("poc-or-gtfo.pdf") }}).
+"""
+tags = ["Misc"]
+
+[scoring]
+points = 5
+
+[[hints]]
+content = "PDF objects and artifacts"
+
