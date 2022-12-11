@@ -1,5 +1,8 @@
 # Metadata for the CTF challenge repository
 
+# Define CTFd URL
+url = "https://ctf-2023.clubeh.ca"
+
 # Define challenge categories
 categories = [
 	"web",
