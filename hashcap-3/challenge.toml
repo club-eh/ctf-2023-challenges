@@ -1,0 +1,40 @@
+# This is an example challenge definition, written in TOML 1.0 (https://toml.io).
+# All fields are required unless stated otherwise.
+
+[meta]
+# A unique, mostly-internal ID for this challenge.
+# Must match the name of the challenge directory (where this file is).
+id = "hashcap-3"
+# The ID of the user-facing category this challenge should be grouped under.
+# Must match an existing entry in `../challenge-monorepo.toml`.
+category = "crypto"
+# The rated difficulty of the challenge (shown to the player as a title-cased tag).
+# Must be one of "easy", "medium", "hard".
+difficulty = "hard"
+# The user-facing display name of the challenge.
+name = "hashcap-3"
+# The user-facing description of the challenge.
+# Supports Markdown + Jinja2.
+description = """
+## Challenge Description (written in Markdown)
+> by tetratarius
+We have managed to extract another password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?
+
+**NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
+
+Download: [hash3.txt]({{ linkify.static("hash3.txt") }})
+"""
+# (optional) A list of tags for the challenge, as displayed by CTFd.
+# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
+tags = ["Crypto"]
+
+
+[scoring]
+# The flag that the user must submit to prove they've solved the challenge.
+flag = "69caesar4469"
+# The static number of points this challenge is worth.
+points = 30
+
+
+[[hints]]
+content = "Look up how to crack password hashes... look at the man pages or documentation for the cracking tools and look at the different things you can do to improve the probabilty of cracking it."
