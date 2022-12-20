@@ -1,0 +1,40 @@
+# This is an example challenge definition, written in TOML 1.0 (https://toml.io).
+# All fields are required unless stated otherwise.
+
+[meta]
+# A unique, mostly-internal ID for this challenge.
+# Must match the name of the challenge directory (where this file is).
+id = "zueszip"
+# The ID of the user-facing category this challenge should be grouped under.
+# Must match an existing entry in `../challenge-monorepo.toml`.
+category = "crypto"
+# The rated difficulty of the challenge (shown to the player as a title-cased tag).
+# Must be one of "easy", "medium", "hard".
+difficulty = "easy"
+# The user-facing display name of the challenge.
+name = "zeuszip"
+# The user-facing description of the challenge.
+# Supports Markdown + Jinja2.
+description = """
+> by tetratarius
+
+We've extracted a file from one of t3l0s' hacker's dropbox servers, but the file is password protected. Can you bypass the password protection and read the contents?
+
+**NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
+
+Download: [zeus.zip]({{ linkify.static("zeus.zip") }}).
+"""
+# (optional) A list of tags for the challenge, as displayed by CTFd.
+# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
+tags = ["Crypto"]
+
+
+[scoring]
+# The flag that the user must submit to prove they've solved the challenge.
+flag = "computer!@#$%^&*"
+# The static number of points this challenge is worth.
+points = 10
+
+
+[[hints]]
+content = "Google something about password protected zips..."
