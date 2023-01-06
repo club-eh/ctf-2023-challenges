@@ -16,13 +16,13 @@ name = "Olympians"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
 > by Spaghetti
-Run the web application from the supplied files and get the flag.
+
+Exploit the web application and get the flag.
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
-tags = ["Web-App-Exploitation"]
+tags = ["Web Exploitation"]
 
 
 [scoring]
@@ -30,9 +30,3 @@ tags = ["Web-App-Exploitation"]
 flag = "flag{2ln5KOVKYvd1QMN4FL}"
 # The static number of points this challenge is worth.
 points = 15
-
-
-[[hints]]
-content = """
-No hints.
-"""
