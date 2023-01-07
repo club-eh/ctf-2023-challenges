@@ -25,4 +25,3 @@ tags = ["Web"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{c00k13_4u7h3n71c4710n_15_n07_54f3_eEr328VD}"
-

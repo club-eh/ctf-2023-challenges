@@ -32,6 +32,4 @@ flag = "clubeh{plA70_0n_7hE_W1RE}"
 content = "challenge can be considered 'steganography'"
 
 [[hints]]
-content = """
-look up common stego tools, what are common techniques for hiding data within images? maybe there's portions of the data not being used?
-"""
+content = "look up common stego tools, what are common techniques for hiding data within images? maybe there's portions of the data not being used?"

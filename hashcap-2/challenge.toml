@@ -1,30 +1,20 @@
-
 [meta]
-
 id = "hashcap-2"
-
 category = "crypto"
-
 difficulty = "medium"
-
 name = "hashcap-2"
-
 description = """
-
 > by tetratarius
 
 We have managed to extract another password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?
 
 **NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
 """
-
 tags = ["Crypto"]
 
 
 [scoring]
-
 flag = "caesar441999"
-
 
 
 [[hints]]

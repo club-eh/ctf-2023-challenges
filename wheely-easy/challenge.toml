@@ -17,7 +17,7 @@ description = """
 
 Can you decrypt the code to get the flag? We found a tool that might be useful.
 
-{129D2UDB_TD00RCB_2QC_590UM_2DPL03DJ}
+`{129D2UDB_TD00RCB_2QC_590UM_2DPL03DJ}`
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
@@ -26,4 +26,3 @@ tags = ["Cryptography"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{4Tl42_K4RRI32_TH3_W0RLD_8JVR69JP}"
-

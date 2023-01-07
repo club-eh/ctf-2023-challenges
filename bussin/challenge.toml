@@ -17,7 +17,7 @@ description = """
 
 Can you decode this cipher? The only lead we have is `pegasus`.
 
-112250011041{21244235_0154_05_150350051354_3541143141254155}
+`112250011041{21244235_0154_05_150350051354_3541143141254155}`
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

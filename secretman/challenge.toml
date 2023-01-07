@@ -31,9 +31,7 @@ flag = "clubeh{tH3s3us_sUcK50rz}"
 
 
 [[hints]]
-content = """
-look up what a .pyc file is
-"""
+content = "look up what a .pyc file is"
 
 [[hints]]
 content = "look up how to reverse engineer a .pyc file"
