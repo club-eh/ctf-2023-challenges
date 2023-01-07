@@ -13,3 +13,22 @@ categories = [
 	"reverse",
 	"exploit",
 ]
+
+# Define scoring parameters (based on challenge difficulty)
+[scoring]
+expected_player_count = 50
+
+[scoring.initial]  # initial point value
+easy	= 90
+medium	= 150
+hard	= 210
+
+[scoring.final]  # lowest possible point value; when solves >= decay
+easy	= 30
+medium	= 50
+hard	= 70
+
+[scoring.decay]  # controls rate of decay. these are multiplied by scoring.expected_player_count.
+easy	= 0.4
+medium	= 0.3
+hard	= 0.2
