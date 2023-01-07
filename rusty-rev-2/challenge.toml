@@ -17,7 +17,6 @@ tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
 
 [scoring]
 flag = "clubeh{5ym601ic_3x3cuti0n_i5_3v3n_m0r3_fun_bb458f72}"
-points = 50
 
 
 # hint to avoid derailment and clarify the "might" in the description

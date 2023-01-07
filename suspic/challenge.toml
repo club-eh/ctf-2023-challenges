@@ -32,8 +32,6 @@ tags = ["Forensics"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{m1n074ur_h1dd3n_1n_pl41N_s16h7}"
-# The static number of points this challenge is worth.
-points = 25
 
 
 [[hints]]

@@ -14,5 +14,4 @@ tags = ["Forensics", "Hardware", "Misc"]
 
 [scoring]
 flag = "clubeh{c0mpu73r_num3r1c41_c0n7r01_4fmC5sJz}"
-points = 10
 

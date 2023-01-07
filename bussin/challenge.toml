@@ -26,8 +26,6 @@ tags = ["Cryptography"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}"
-# The static number of points this challenge is worth.
-points = 15
 
 [[hints]]
 content = "Old cryptography algorithm."

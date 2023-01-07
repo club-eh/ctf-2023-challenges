@@ -24,8 +24,6 @@ tags = ["Reverse"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{e50t3r1c_l4nguage_ej65h34}"
-# The static number of points this challenge is worth.
-points = 10
 
 
 [[hints]]

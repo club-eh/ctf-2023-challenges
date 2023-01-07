@@ -13,7 +13,6 @@ tags = ["Forensics"]
 
 [scoring]
 flag = "clubeh{p1x3l4t3d_d4t4_118e08f9}"
-#points = 0  # TODO
 
 
 [static]

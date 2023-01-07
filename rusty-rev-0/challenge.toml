@@ -15,7 +15,6 @@ tags = ["Reverse Engineering", "Rust"]
 
 [scoring]
 flag = "clubeh{b1n4ry_r3v3rs1ng_13_fun_f5dd17b2}"
-points = 20
 
 
 [[hints]]

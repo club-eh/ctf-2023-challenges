@@ -28,5 +28,3 @@ tags = ["Web Exploitation"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "flag{2ln5KOVKYvd1QMN4FL}"
-# The static number of points this challenge is worth.
-points = 15

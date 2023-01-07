@@ -16,7 +16,6 @@ tags = ["Forensics", "Git"]
 
 [scoring]
 flag = "clubeh{1gn0r4nc3_15_bl155_c5fec34a}"
-points = 15
 
 
 [[hints]]

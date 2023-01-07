@@ -32,8 +32,6 @@ tags = ["Crypto"]
 [scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "computer!@#$%^&*"
-# The static number of points this challenge is worth.
-points = 10
 
 
 [[hints]]

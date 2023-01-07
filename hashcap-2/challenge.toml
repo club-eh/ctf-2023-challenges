@@ -27,7 +27,6 @@ tags = ["Crypto"]
 
 flag = "caesar441999"
 
-points = 20
 
 
 [[hints]]

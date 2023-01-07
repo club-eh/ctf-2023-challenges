@@ -13,7 +13,6 @@ tags = ["Web"]
 
 [scoring]
 flag = "clubeh{3ch1dn@_A6E2C145}"
-#points = 0  # TODO
 
 
 [dynamic.webserver]

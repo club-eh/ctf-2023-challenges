@@ -17,7 +17,6 @@ tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
 
 [scoring]
 flag = "clubeh{cr4ck1ng_4_ru5ty_l0ck_20fbbc23}"
-points = 35
 
 
 [[hints]]
