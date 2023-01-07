@@ -29,7 +29,7 @@ content = """
 Don't forget the flag format:
 1. starts with `clubeh{`
 2. ends with `}`
-3. contains only ASCII characters
+3. contains only printable ASCII characters
 """
 
 # my optimized script takes ~1 minute (Ryzen 5600X, CPython 3.11.0)
