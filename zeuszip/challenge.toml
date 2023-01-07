@@ -24,7 +24,7 @@ We've extracted a file from one of t3l0s' hacker's dropbox servers, but the file
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
-tags = ["Crypto"]
+tags = ["Cryptography"]
 
 
 [scoring]
