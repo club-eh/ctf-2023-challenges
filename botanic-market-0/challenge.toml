@@ -1,27 +1,15 @@
 [meta]
-# A unique, mostly-internal ID for this challenge.
-# Must match the name of the challenge directory (where this file is).
 id = "botanic-market"
-# The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../challenge-monorepo.toml`.
 category = "web"
-# The rated difficulty of the challenge (shown to the player as a title-cased tag).
-# Must be one of "easy", "medium", "hard".
 difficulty = "easy"
-# The user-facing display name of the challenge.
 name = "Botanic Market"
-# The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
 description = """
 > by Spaghetti
 
-This website is still under construction, can you find a vulnerability?
+Our sources of intelligence tell us that this website is a front for t3l0s. It looks like they have deployed a development version to the live internet! See if you can take advantage of any vulnerabilities that you may find. 
 """
-# (optional) A list of tags for the challenge, as displayed by CTFd.
-# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Web"]
 
 
 [scoring]
-# The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{c00k13_4u7h3n71c4710n_15_n07_54f3_eEr328VD}"
