@@ -4,7 +4,7 @@
 [meta]
 # A unique, mostly-internal ID for this challenge.
 # Must match the name of the challenge directory (where this file is).
-id = "zueszip"
+id = "zeuszip"
 # The ID of the user-facing category this challenge should be grouped under.
 # Must match an existing entry in `../challenge-monorepo.toml`.
 category = "crypto"
