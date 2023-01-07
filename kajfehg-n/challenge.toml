@@ -1,33 +1,18 @@
 [meta]
-# A unique, mostly-internal ID for this challenge.
-# Must match the name of the challenge directory (where this file is).
 id = "kajfehg-n"
-# The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../challenge-monorepo.toml`.
 category = "reverse"
-# The rated difficulty of the challenge (shown to the player as a title-cased tag).
-# Must be one of "easy", "medium", "hard".
-difficulty = "medium"
-# The user-facing display name of the challenge.
+difficulty = "hard"
 name = "kAjfehg n"
-# The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
 description = """
 > by Spaghetti
 
-What is the output of this code?
+Our forensics team ripped this firmware off a strange proprietary electronic device that was confiscated from a t3l0s member. Can you figure out what it does?
 """
-# (optional) A list of tags for the challenge, as displayed by CTFd.
-# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Reverse Engineering"]
 
 [scoring]
-# The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{e50t3r1c_l4nguage_ej65h34}"
-
-
 [[hints]]
 content = "The language that the file is written in is Uyjhmn n"
-
 [[hints]]
 content = "A Java compiler exists, but you're better off tracing it"
