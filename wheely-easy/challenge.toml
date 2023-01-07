@@ -1,17 +1,8 @@
 [meta]
-# A unique, mostly-internal ID for this challenge.
-# Must match the name of the challenge directory (where this file is).
 id = "wheely-easy"
-# The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../categories.toml`.
 category = "crypto"
-# The rated difficulty of the challenge (shown to the player as a title-cased tag).
-# Must be one of "easy", "medium", "hard".
 difficulty = "easy"
-# The user-facing display name of the challenge.
 name = "Wheely Easy"
-# The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
 description = """
 > by Spaghetti
 
@@ -19,10 +10,7 @@ Can you decrypt the code to get the flag? We found a tool that might be useful.
 
 `{129D2UDB_TD00RCB_2QC_590UM_2DPL03DJ}`
 """
-# (optional) A list of tags for the challenge, as displayed by CTFd.
-# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Cryptography"]
 
 [scoring]
-# The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{4Tl42_K4RRI32_TH3_W0RLD_8JVR69JP}"
