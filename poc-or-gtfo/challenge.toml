@@ -5,9 +5,8 @@ difficulty = "easy"
 name = "PoC || GTFO"
 description = """
 > by Spaghetti
-There is a flag hidden within this PDF newsletter, can you find it?
 
-[poc-or-gtfo.pdf]({{ linkify.static("poc-or-gtfo.pdf") }}).
+There is a flag hidden within this PDF newsletter, can you find it?
 """
 tags = ["Misc"]
 

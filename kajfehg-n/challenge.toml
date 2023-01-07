@@ -13,9 +13,9 @@ name = "kAjfehg n"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
 > by Spaghetti
-What is the output of this code? [kAjfehg-n]({{ linkify.static("kAjfehg-n") }}).
+
+What is the output of this code?
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

@@ -13,8 +13,8 @@ name = "Wheely Easy"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description
 > by Spaghetti
+
 Can you decrypt the code to get the flag? We found a tool that might be useful.
 
 {129D2UDB_TD00RCB_2QC_590UM_2DPL03DJ}

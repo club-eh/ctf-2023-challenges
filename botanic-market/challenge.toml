@@ -13,8 +13,8 @@ name = "Botanic Market"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
 > by Spaghetti
+
 This website is still under construction, can you find a vulnerability?
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.

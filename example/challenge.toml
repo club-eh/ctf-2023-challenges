@@ -14,16 +14,12 @@ difficulty = "easy"
 # The user-facing display name of the challenge.
 name = "Example Stego Challenge"
 # The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
+# Supports Markdown.
 description = """
-## Challenge Description (written in Markdown)
-
 > by sudoBash418
 
 This is where we communicate information about the challenge to the player.  
-Standard markdown is supported, and basic Jinja2 templating should be used to reference files or URLs.
-
-For example, here is an auto-generated link to a file the player will need: [hidden-message.png]({{ linkify.static("hidden-message.png") }}).
+Standard markdown is supported.
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

@@ -16,12 +16,9 @@ name = "secretman"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
-We've found what we suspect to be one of the hacker's programs for storing secrets, we believe that a secret key is hidden within the program.
-
 > by tetratarius
 
-For example, here is an auto-generated link to a file the player will need: [secretman.pyc]({{ linkify.static("secretman.pyc") }}).
+We've found what we suspect to be one of the hacker's programs for storing secrets, we believe that a secret key is hidden within the program.
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

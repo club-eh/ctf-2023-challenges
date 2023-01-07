@@ -5,9 +5,8 @@ difficulty = "easy"
 name = "Coordinates"
 description = """
 > by Spaghetti
-There is a flag hidden somewhere in this file.
 
-[flag]({{ linkify.static("flag") }})
+There is a flag hidden somewhere in this file.
 """
 tags = ["Forensics", "Hardware", "Misc"]
 

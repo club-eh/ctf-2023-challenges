@@ -16,13 +16,7 @@ name = "into-the-void"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
-
 > by TetraTarius
-
-
-
-Download: [void.png]({{ linkify.static("void.png") }}).
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

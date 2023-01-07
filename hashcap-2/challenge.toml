@@ -16,8 +16,6 @@ description = """
 We have managed to extract another password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?
 
 **NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
-
-Download: [hash2.txt]({{ linkify.static("hash2.txt") }})
 """
 
 tags = ["Crypto"]

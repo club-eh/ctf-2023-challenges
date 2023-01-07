@@ -16,13 +16,11 @@ name = "hashcap-1"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
 > by tetratarius
+
 We have managed to extract a password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?
 
 **NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
-
-Download: [hash1.txt]({{ linkify.static("hash1.txt") }})
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

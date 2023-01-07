@@ -21,8 +21,6 @@ description = """
 We've extracted a file from one of t3l0s' hacker's dropbox servers, but the file is password protected. Can you bypass the password protection and read the contents?
 
 **NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
-
-Download: [zeus.zip]({{ linkify.static("zeus.zip") }}).
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.

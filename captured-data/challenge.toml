@@ -16,8 +16,6 @@ name = "Captured Data"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
-
 > by tetratarius
 
 We have managed to capture some web traffic related to one of the attackers, can you decode it?

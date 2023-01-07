@@ -16,13 +16,9 @@ name = "suspic"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
-## Challenge Description (written in Markdown)
-
 > by tetratarius
 
 We've discovered an image that we find pretty sus, can you figure out what it's hiding?
-
-For example, here is an auto-generated link to a file the player will need: [suspic]({{ linkify.static("m1n074ur_s3cr37.jpg") }}).
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
