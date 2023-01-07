@@ -1,31 +1,19 @@
 [meta]
-# A unique, mostly-internal ID for this challenge.
-# Must match the name of the challenge directory (where this file is).
 id = "bussin"
-# The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../categories.toml`.
 category = "crypto"
-# The rated difficulty of the challenge (shown to the player as a title-cased tag).
-# Must be one of "easy", "medium", "hard".
 difficulty = "medium"
-# The user-facing display name of the challenge.
 name = "Bussin"
-# The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
 description = """
 > by Spaghetti
 
-Can you decode this cipher? The only lead we have is `pegasus`.
+Can you decode this cipher? Our forensics team is unable to figure this cipher out, but they did recover the phrase `pegasus` from the rest of the recovered data taken from t3l0s, that might be helpful.
 
 `112250011041{21244235_0154_05_150350051354_3541143141254155}`
 """
-# (optional) A list of tags for the challenge, as displayed by CTFd.
-# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Cryptography"]
 
 
 [scoring]
-# The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}"
 
 [[hints]]
