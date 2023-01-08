@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<head>
+	<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+	<script src="{{ url_for('static', filename='lib/bootstrap.bundle.min.js') }}"></script>
+	<link href="{{ url_for('static', filename='lib/bootstrap.min.css') }}" rel="stylesheet">
+	<script src="{{url_for('static', filename='lib/jquery.min.js') }}"></script>
+	<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+	<script src="{{ url_for('static', filename='popoverFunc.js') }}"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav class="navbar" style="background-color: #315527;">
+		<div class="container-fluid">
+    		<span class="navbar-brand mb-0 h1" style="color: #000000">Botanic Market</span>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<img class="sign" src="{{ url_for('static', filename='img/sign.png') }}"></img>
+			</div>
+			<div class="col-6 pt-3 text-center">
+				<img class="banner" src="{{ url_for('static', filename='img/banner.png') }}"></img>
+			</div>
+		</div>
+		<hr style="color: #FFFFFF;">
+
+		<hr style="color: #FFFFFF;">
+		<div class="row text-center" style="height: fit-content; width: fit-content;">
+			<div class="col-3 item">
+				<img class="picture" src="{{ url_for('static', filename='img/1.png') }}" data-toggle="chestnut"></img>
+				<p>Horse Chestnut Seedling</p>
+				<p>$8.99</p>
+			</div>
+			<div class="col-3 item">
+				<img class="picture" src="{{ url_for('static', filename='img/2.png') }}" data-toggle="maple"></img>
+				<p>Maple Seedling</p>
+				<p>19.99</p>
+			</div>
+			<div class="col-3 item">
+				<img class="picture" src="{{ url_for('static', filename='img/3.png') }}" data-toggle="poplar"></img>
+				<p>Poplar Seedling</p>
+				<p>$1.99</p>
+			</div>
+			<div class="col-3 item">
+				<img class="picture" src="{{ url_for('static', filename='img/4.png') }}" data-toggle="willow"></img>
+				<p>Willow Seedling</p>
+				<p>$12.99</p>
+			</div>
+		</div>
+		<div class="row text-center g-5">
+			<div class="col-3">
+				<img class="picture" src="{{ url_for('static', filename='img/5.png') }}" data-toggle="alder"></img>
+				<p>Red Alder Seedling</p>
+				<p>$2.99</p>
+			</div>
+			<div class="col-3">
+				<img class="picture" src="{{ url_for('static', filename='img/6.png') }}" data-toggle="clover"></img>
+				<p>Clover</p>
+				<p>$22.99</p>
+			</div>
+			<div class="col-3">
+				<img class="picture" src="{{ url_for('static', filename='img/sentient.png') }}" data-toggle="sentient"></img>
+				<p>Sentient plant</p>
+				<p style="color: #FF0000">OUT OF STOCK</p>
+			</div>
+			<div class="col-3">
+				<img class="picture" src="{{ url_for('static', filename='img/8.png') }}" data-toggle="oak"></img>
+				<p>Oak Seedling</p>
+				<p>$6.99</p>
+			</div>
+		</div>
+
+<button class="open-button" onclick="openForm()">chatSNN</button>
+
+<div class="chat-popup" id="myForm">
+	<div class="form-container">
+    	<section class="msger">
+			<header class="msger-header">
+				<div class="msger-header-title" display="inline-block" style="text-align: center;">
+					chatSNN
+					<i class="fas fa-times-circle fa-lg close-button" onClick="closeForm()"></i>
+				</div>
+			<hr>
+    		</header>
+			<div style="overflow:auto; max-height: 500px;" id="chat-window">
+    			<main class="msger-chat">
+      				<div class="msg left-msg">
+						<div class="msg-bubble">
+          					<div class="msg-info">
+            					<div class="msg-info-name">chatSNN</div>
+          					</div>
+							<div class="bot-talk-bubble">
+          						How can I help you?
+							</div>
+						</div>
+					</div>
+				</main>
+				<hr>
+				<form class="msger-inputarea" display="inline-block">
+					<div class="input-group">
+						<input type="text" maxlength="255" class="msger-input form-control" id="textInput" placeholder="Enter your message...">
+						<button type="submit" class="btn" id="btn-submit" style="color: #FFFFFF; background-color: #56301D;">Send</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+</div>
+<div class="chat">
+
+</div>
+<script>
+function openForm() {
+	document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+	document.getElementById("myForm").style.display = "none";
+}
+</script>
+ 
+<script>
+var input = document.getElementById("textInput");
+input.addEventListener("keypress", function(event) {
+	if (event.key === "Enter") {
+	event.preventDefault();
+	document.getElementById("btn-submit").click();
+	}
+});
+</script>
+
+<script src="{{ url_for('static', filename='response.js') }}"></script>
+
+</body>

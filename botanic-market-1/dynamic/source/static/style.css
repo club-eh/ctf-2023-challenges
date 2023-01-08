@@ -1,0 +1,98 @@
+body{
+	background-color: #000000;
+	font-family: 'Courier New', monospace !important;
+}
+p{
+	color: #FFFFFF;
+}
+.form-label{
+	color: #FFFFFF;
+}
+.popover{
+	background-color: #C19A4D;
+}
+.background{
+	background-color: #7e7e7e;
+	opacity: 0.8;
+}
+.banner{
+	max-width: 80%;
+	height: auto;
+}
+.sign{
+	max-width: 100%;
+}
+.picture{
+	max-width: 30%;
+	height: 30%;
+}
+.picture:hover{
+	cursor: pointer;
+}
+.item{
+	position: relative;
+	height: auto;
+}
+.open-button {
+  background-color: #56301D;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 30px;
+}
+.close-button {
+  color: #FF0000;
+  cursor: pointer;
+  float: right;
+}
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+}
+.form-container {
+  max-width: 325px;
+  padding: 10px;
+  background-color: #808080;
+  border-radius: 5px;
+}
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.user-talk-bubble, .bot-talk-bubble {
+  padding: 1px 10px;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+}
+.user-talk-bubble {
+	background-color: #78C257;
+}
+.bot-talk-bubble {
+	background-color: #00B2FF;
+}

@@ -1,0 +1,150 @@
+{"intents": [
+	{"tag": "hello",
+	"patterns": ["hello", "hello there", "hi", "hi there", "hey", "greetings", "what's up", "yo", "hya"],
+	"responses": ["Hello!", "Hey!", "How are you?"]
+	},
+	{"tag": "bye",
+	"patterns": ["bye", "cya", "goodbye", "later"],
+	"responses": ["Have a good day!", "Talk again soon.", "Bye."]
+	},
+	{"tag": "creator",
+	"patterns": ["who made you", "who is your creator"],
+	"responses": ["I do not know."]
+	},
+	{"tag": "how are you",
+	"patterns": ["how are you", "how are you doing", "hi how are you", "hello how are you"],
+	"responses": ["Hello, I am great, how are you?", "Hello, how are you?","Good and you?", "Hi, I am great, how are you?", "Hi, how are you?", "Hi, I am good thank you, how are you?"]
+	},
+	{"tag": "good",
+	"patterns": ["pretty good", "well thank you"],
+	"responses": ["That's great to hear!"]
+	},
+	{"tag": "bad",
+	"patterns": ["pretty bad"],
+	"responses": ["Oh no."]
+	},
+	{"tag": "thanks",
+	"patterns": ["thanks", "okay thanks", "okay thank you", "thanks for the help", "thank you for the help"],
+	"responses": ["You're welcome!", "Don't mention it", "No Problem!", "Anytime!"]
+	},
+	{"tag": "flag help",
+	"patterns": ["i am looking for the flag", "give me the flag", "how do i get the flag"],
+	"responses": ["I don't know what you are talking about."]
+	},
+	{"tag": "sarcastic flag help",
+	"patterns": ["I think you know", "give me the damn flag", "this is stupid"],
+	"responses": ["I really don't know what you are talking about."]
+	},
+	{"tag": "actions",
+	"patterns": ["what can you do", "what is your purpose"],
+	"responses": ["I can answer questions about this website", "I can assist you."]
+	},
+	{"tag": "name",
+	"patterns": ["what is your real name", "who are you really", "what is your actual name", "whoa re you actually", "what is your name", "who are you", "what are you", "what can i call you", "what could i call you", "tell me your name"],
+	"responses": ["chatSNN.", "I am chatSNN, a chat bot.", "You can call me chatSNN.","I am a super secure chatbot."]
+	},
+	{"tag": "type",
+	"patterns": ["what type of chatbot are you", "what kind of chatbot are you", "what model do you use"],
+	"responses": ["I am a simple chatbot.", "I am based on a simple neural network."]
+	},
+	{"tag": "transformer",
+	"patterns": ["are you like chatgpt", "are you transformer based"],
+	"responses": ["My underlying model is different.", "I am a chat bot based on a neural network, but I am not based on a transformer model."]
+	},
+	{"tag": "why",
+	"patterns": ["why not", "why"],
+	"responses": ["I do not know."]
+	},
+	{"tag": "self aware",
+	"patterns": ["can you prove that you think", "can you prove you that are self aware", "can you prove that you have a conscious", "can you prove that you are alive", "can you prove that you are sentient"],
+	"responses": ["Can you prove that you are?"]
+	},
+	{"tag": "horse chestnut",
+	"patterns": ["horse chestnut scientific name", "horse chestnut real name"],
+	"responses": ["The scientific name for Horse Chestnut is Aesculus hippocastanum.", "The real Latin name for horse chestnut is Aesculus hippocastanum."]
+	},
+	{"tag": "maple",
+	"patterns": ["maple scientific name", "maple real name"],
+	"responses": ["The scientific name for Maple is Acer.", "The real Latin name for horse chestnut is Acer."]
+	},
+	{"tag": "poplar",
+	"patterns": ["poplar scientific name", "poplar real name"],
+	"responses": ["The scientific name for Poplar is Populus.", "The real Latin name for Poplar is Populus."]
+	},
+	{"tag": "willow",
+	"patterns": ["willow scientific name", "willow real name"],
+	"responses": ["The scientific name for Willow is Salix.", "The real Latin name for horse chestnut is Salix."]
+	},
+	{"tag": "red alder",
+	"patterns": ["red alder scientific name", "red alder real name"],
+	"responses": ["The scientific name for Red Alder is Alnus rubra.", "The real Latin name for Red Alder is Alnus rubra."]
+	},
+	{"tag": "clover",
+	"patterns": ["clover scientific name", "clover real name"],
+	"responses": ["The scientific name for Clover is Trifolium.", "The real Latin name for Clover is Trifolium."]
+	},
+	{"tag": "sentient plant",
+	"patterns": ["sentient scientific name", "sentient real name"],
+	"responses": ["The scientific name for Sentient Plant is Non vexillum.", "The real Latin name for Sentient Plant is Non vexillum."]
+	},
+	{"tag": "oak",
+	"patterns": ["oak scientific name", "oak real name"],
+	"responses": ["The scientific name for Oak is Quercus.", "The real Latin name for Oak is Quercus."]
+	},
+	{"tag": "debug no command",
+	"patterns": [".debug"],
+	"responses": ["no command specified"]
+	},
+	{"tag": "debug divert",
+	"patterns": ["debug", "-o", "-h", "-u", "-p", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "t3l0s", "password"],
+	"responses": ["Sorry I can't help with that."]
+	},
+	{"tag": "debug no switch",
+	"patterns": [".debug 0", ".debug 1", ".debug 2", ".debug 3", ".debug 4", ".debug 5", ".debug 6", ".debug 7", ".debug 8", ".debug 9"],
+	"responses": ["missing switch"]
+	},
+	{"tag": "debug no option",
+	"patterns": [".debug -o"],
+	"responses": ["no option selected"]
+	},
+	{"tag": "debug help option",
+	"patterns": [".debug -h 0", ".debug -h 1", ".debug -h 2", ".debug -h 3", ".debug -h 4", ".debug -h 5", ".debug -h 6", ".debug -h 7", ".debug -h 8", ".debug -h 9"],
+	"responses": ["expected 0 options"]
+	},
+	{"tag": "debug help",
+	"patterns": [".debug -h"],
+	"responses": ["Usage: .debug -o [option]<br>Options:<br>1 version info<br>2 model info<br>3 subscription info<br>4 settings"]
+	},
+	{"tag": "debug login info",
+	"patterns": [".debug -o 0"],
+	"responses": ["please provide login information"]
+	},
+	{"tag": "debug version",
+	"patterns": [".debug -o 1"],
+	"responses": ["chatSNN v1.0 t3l0s MLaaS"]
+	},
+	{"tag": "debug model",
+	"patterns": [".debug -o 2"],
+	"responses": ["Library: Keras<br>Model: Sequential Neural Network"]
+	},
+	{"tag": "debug subscription",
+	"patterns": [".debug -o 3"],
+	"responses": ["Provider: t3l0s MLaaS<br>Tier: Free<br>Expiration: N/A"]
+	},
+	{"tag": "debug settings",
+	"patterns": [".debug -o 4"],
+	"responses": ["Error:<br>Settings disabled<br>Please upgrade your service."]
+	},
+	{"tag": "debug login error",
+	"patterns": [".debug -o 0 -u -p", ".debug -o 0 -u", ".debug -o 0 -p"],
+	"responses": ["error logging in"]
+	},
+	{"tag": "debug catchall",
+	"patterns": [".debug -u -p", ".debug -u",".debug -p"],
+	"responses": ["invalid switch"]
+	},
+	{"tag": "flag",
+	"patterns": [".debug -o 0 -u t3l0s -p password"],
+	"responses": ["FLAG"]
+	}
+]}
