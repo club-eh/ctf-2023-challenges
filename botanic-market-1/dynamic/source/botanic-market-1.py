@@ -1,4 +1,5 @@
 # chatSNN bot
+import functools
 import random
 import json
 import pickle
@@ -35,6 +36,7 @@ def bagOfWords(sentence):
     return np.array(bag)
 
 # Predict class
+@functools.lru_cache(maxsize=4096)
 def predictClass(sentence):
     bow = bagOfWords(sentence)
     res = model(np.array([bow]))[0]
