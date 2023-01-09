@@ -88,4 +88,4 @@ def get_bot_response():
     return chatbotResponse(userText)
 
 if __name__ == "__main__":
-    app.run(port="1337", host="0.0.0.0")
+    app.run(port=1337, host="0.0.0.0")
