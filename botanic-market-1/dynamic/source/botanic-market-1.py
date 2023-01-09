@@ -87,6 +87,12 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
+
+    if userText is None:
+        return "Missing 'msg' parameter", 400
+    elif len(userText) > 255:
+        return "Message too long", 400
+
     return chatbotResponse(userText)
 
 if __name__ == "__main__":
