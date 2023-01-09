@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <head>
 	<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
-	<script src="{{ url_for('static', filename='lib/bootstrap.bundle.min.js') }}"></script>
-	<link href="{{ url_for('static', filename='lib/bootstrap.min.css') }}" rel="stylesheet">
-	<script src="{{url_for('static', filename='lib/jquery.min.js') }}"></script>
-	<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
-	<script src="{{ url_for('static', filename='popoverFunc.js') }}"></script>
+	<script src="static/lib/bootstrap.bundle.min.js"></script>
+	<link href="static/lib/bootstrap.min.css" rel="stylesheet">
+	<script src="static/lib/jquery.min.js"></script>
+	<link href="static/style.css" rel="stylesheet">
+	<script src="static/popoverFunc.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -17,10 +17,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-3">
-				<img class="sign" src="{{ url_for('static', filename='img/sign.png') }}"></img>
+				<img class="sign" src="static/img/sign.png"></img>
 			</div>
 			<div class="col-6 pt-3 text-center">
-				<img class="banner" src="{{ url_for('static', filename='img/banner.png') }}"></img>
+				<img class="banner" src="static/img/banner.png"></img>
 			</div>
 		</div>
 		<hr style="color: #FFFFFF;">
@@ -28,44 +28,44 @@
 		<hr style="color: #FFFFFF;">
 		<div class="row text-center" style="height: fit-content; width: fit-content;">
 			<div class="col-3 item">
-				<img class="picture" src="{{ url_for('static', filename='img/1.png') }}" data-toggle="chestnut"></img>
+				<img class="picture" src="static/img/1.png" data-toggle="chestnut"></img>
 				<p>Horse Chestnut Seedling</p>
 				<p>$8.99</p>
 			</div>
 			<div class="col-3 item">
-				<img class="picture" src="{{ url_for('static', filename='img/2.png') }}" data-toggle="maple"></img>
+				<img class="picture" src="static/img/2.png" data-toggle="maple"></img>
 				<p>Maple Seedling</p>
 				<p>19.99</p>
 			</div>
 			<div class="col-3 item">
-				<img class="picture" src="{{ url_for('static', filename='img/3.png') }}" data-toggle="poplar"></img>
+				<img class="picture" src="static/img/3.png" data-toggle="poplar"></img>
 				<p>Poplar Seedling</p>
 				<p>$1.99</p>
 			</div>
 			<div class="col-3 item">
-				<img class="picture" src="{{ url_for('static', filename='img/4.png') }}" data-toggle="willow"></img>
+				<img class="picture" src="static/img/4.png" data-toggle="willow"></img>
 				<p>Willow Seedling</p>
 				<p>$12.99</p>
 			</div>
 		</div>
 		<div class="row text-center g-5">
 			<div class="col-3">
-				<img class="picture" src="{{ url_for('static', filename='img/5.png') }}" data-toggle="alder"></img>
+				<img class="picture" src="static/img/5.png" data-toggle="alder"></img>
 				<p>Red Alder Seedling</p>
 				<p>$2.99</p>
 			</div>
 			<div class="col-3">
-				<img class="picture" src="{{ url_for('static', filename='img/6.png') }}" data-toggle="clover"></img>
+				<img class="picture" src="static/img/6.png" data-toggle="clover"></img>
 				<p>Clover</p>
 				<p>$22.99</p>
 			</div>
 			<div class="col-3">
-				<img class="picture" src="{{ url_for('static', filename='img/sentient.png') }}" data-toggle="sentient"></img>
+				<img class="picture" src="static/img/sentient.png" data-toggle="sentient"></img>
 				<p>Sentient plant</p>
 				<p style="color: #FF0000">OUT OF STOCK</p>
 			</div>
 			<div class="col-3">
-				<img class="picture" src="{{ url_for('static', filename='img/8.png') }}" data-toggle="oak"></img>
+				<img class="picture" src="static/img/8.png" data-toggle="oak"></img>
 				<p>Oak Seedling</p>
 				<p>$6.99</p>
 			</div>
@@ -130,6 +130,6 @@ input.addEventListener("keypress", function(event) {
 });
 </script>
 
-<script src="{{ url_for('static', filename='response.js') }}"></script>
+<script src="static/response.js"></script>
 
 </body>

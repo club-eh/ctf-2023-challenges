@@ -68,21 +68,15 @@ def chatbotResponse(message):
     return res
 
 # Flask app
-from flask import Flask, render_template, request
+from flask import Flask, request
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
 app = Flask(__name__)
-app.static_folder = 'static'
 limiter = Limiter(
     get_remote_address,
     app=app,
 )
-
-@app.route("/")
-@limiter.limit("1/second")
-def home():
-    return render_template("index.html")
 
 @app.route("/get")
 def get_bot_response():
