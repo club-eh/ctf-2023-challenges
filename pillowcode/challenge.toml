@@ -20,3 +20,4 @@ include = [
 	# pyproject.toml intentionally excluded
 	"source/generate.py",
 ]
+rm_prefixes = ["source/"]
