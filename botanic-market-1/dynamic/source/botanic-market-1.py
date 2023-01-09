@@ -37,7 +37,7 @@ def bagOfWords(sentence):
 # Predict class
 def predictClass(sentence):
     bow = bagOfWords(sentence)
-    res = model.predict(np.array([bow]))[0]
+    res = model(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
