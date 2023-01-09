@@ -69,14 +69,8 @@ def chatbotResponse(message):
 
 # Flask app
 from flask import Flask, request
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
 
 app = Flask(__name__)
-limiter = Limiter(
-    get_remote_address,
-    app=app,
-)
 
 @app.route("/get")
 def get_bot_response():
