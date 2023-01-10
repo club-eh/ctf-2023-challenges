@@ -17,6 +17,9 @@ name = "into-the-void"
 # Supports Markdown + Jinja2.
 description = """
 > by TetraTarius
+
+We've discovered an image left behind by one of the hackers of `t3l0s`, we suppose there may be some kind of data or message hidden within this image. Can you retrieve it?
+
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
