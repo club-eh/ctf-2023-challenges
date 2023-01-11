@@ -1,6 +1,0 @@
-services:
-  nginx:
-    container_name: wheely-easy
-    build: .
-    ports:
-      - "80:80"
