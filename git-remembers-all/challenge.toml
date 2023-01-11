@@ -6,7 +6,7 @@ name = "Git Remembers All"
 description = """
 > by sudoBash418
 
-<TODO: something something, "they" exposed a secret key in their webapp repo>
+We've received reports of a t3l0s git repository open to the internet, containing a secret key.
 
 Unfortunately, it looks like we were too late - the secret key is nowhere to be found!  
 Can you help us out?

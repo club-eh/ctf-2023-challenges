@@ -6,7 +6,7 @@ set -e
 
 FLAG="$(rg -o --replace '$1' '^flag ?= ?"([\w{}]+)"' ../challenge.toml)"  # get flag from challenge.toml
 AUTHOR_NAME="webdev2103"
-AUTHOR_EMAIL="${AUTHOR_NAME}@megacorp.internal"
+AUTHOR_EMAIL="${AUTHOR_NAME}@t3l0s.internal"
 GIT_BRANCH_NAME="main"
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
