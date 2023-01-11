@@ -1,7 +1,7 @@
 [meta]
 id = "pillowcode"
 category = "forensics"
-difficulty = "easy"
+difficulty = "medium"
 name = "Pillowcode"
 description = """
 > by sudoBash418
