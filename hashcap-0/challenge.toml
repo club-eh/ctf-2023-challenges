@@ -4,30 +4,32 @@
 [meta]
 # A unique, mostly-internal ID for this challenge.
 # Must match the name of the challenge directory (where this file is).
-id = "hashcap-3"
+id = "hashcap-0"
 # The ID of the user-facing category this challenge should be grouped under.
 # Must match an existing entry in `../challenge-monorepo.toml`.
 category = "crypto"
 # The rated difficulty of the challenge (shown to the player as a title-cased tag).
 # Must be one of "easy", "medium", "hard".
-difficulty = "hard"
+difficulty = "easy"
 # The user-facing display name of the challenge.
-name = "hashcap-3"
+name = "hashcap-0"
 # The user-facing description of the challenge.
 # Supports Markdown + Jinja2.
 description = """
 > by tetratarius
 
-We have managed to extract another password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?
+We have managed to extract a password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?
 
-**NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
+Hash: `1c00e6b82bf96321a63b070333e3c48f775d973b951b929e07e309b6d5c8f73c`
+
+Flag format: `clubeh{<cracked_password>}`
 """
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Cryptography"]
 # The flag that the user must submit to prove they've solved the challenge.
-flag = "69caesar4469"
+flag = "clubeh{caesar44}"
 
 
 [[hints]]
-content = "Look up how to crack password hashes... look at the man pages or documentation for the cracking tools and look at the different things you can do to improve the probabilty of cracking it."
+content = "Look up how to crack password hashes..."
