@@ -1,0 +1,14 @@
+[meta]
+id = "logic-labyrinth"
+category = "misc"
+difficulty = "medium"
+name = "Logic Labyrinth"
+description = """
+> by Artemis
+
+To get through the Labyrinth, you must follow the TRUE path.
+"""
+tags = ["Digital Logic"]
+
+[scoring]
+flag = "clubeh{JSXH5CT}"
