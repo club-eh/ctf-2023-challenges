@@ -1,30 +1,14 @@
-# Config for olympians challenge, written in TOML 1.0 (https://toml.io).
-# All fields are required unless stated otherwise.
-
 [meta]
-# A unique, mostly-internal ID for this challenge.
-# Must match the name of the challenge directory (where this file is).
 id = "olympians"
-# The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../categories.toml`.
 category = "web"
-# The rated difficulty of the challenge (shown to the player as a title-cased tag).
-# Must be one of "easy", "medium", "hard".
 difficulty = "medium"
-# The user-facing display name of the challenge.
 name = "Olympians"
-# The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
 description = """
 > by Spaghetti
 
-Exploit the web application and get the flag.
+This website is known to hold sensitive t3l0s data, what can you find?
 """
-# (optional) A list of tags for the challenge, as displayed by CTFd.
-# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Web Exploitation"]
 
-
 [scoring]
-# The flag that the user must submit to prove they've solved the challenge.
-flag = "flag{2ln5KOVKYvd1QMN4FL}"
+flag = "clubeh{41w4y5_54n17123_1npu75_BC42dpKy}"
