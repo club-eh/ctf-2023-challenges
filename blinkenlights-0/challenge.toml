@@ -1,0 +1,15 @@
+[meta]
+id = "blinkenlights-0"
+category = "misc"
+difficulty = "medium"
+name = "Blinkenlights 0"
+description = """
+> by Artemis
+
+We found some microcontrollers the hackers were using to send each other secret messages.  
+I wonder what this one says?
+
+The lights seem to alternate in colour.
+"""
+tags = ["Hardware", "Forensics"]
+flag = "clubeh{r3d_@nd_9r33n_65843167}"
