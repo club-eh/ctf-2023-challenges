@@ -9,9 +9,8 @@ description = """
 Our forensics team ripped this firmware off a strange proprietary electronic device that was confiscated from a t3l0s member. Can you figure out what it does?
 """
 tags = ["Reverse Engineering"]
-
-[scoring]
 flag = "clubeh{e50t3r1c_l4nguage_ej65h34}"
+
 [[hints]]
 content = "The language that the file is written in is Uyjhmn n"
 [[hints]]

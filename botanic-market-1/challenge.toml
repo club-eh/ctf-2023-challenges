@@ -28,9 +28,6 @@ For example, here is an auto-generated link to a file the player will need: [hid
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Artificial Intelligence"]
-
-
-[scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "flag{m3t@da1a}"
 

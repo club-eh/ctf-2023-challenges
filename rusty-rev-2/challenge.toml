@@ -13,9 +13,6 @@ I'm sure you'll figure it out.
 Can't promise you won't be cursed in the process though :P
 """
 tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
-
-
-[scoring]
 flag = "clubeh{5ym601ic_3x3cuti0n_i5_3v3n_m0r3_fun_bb458f72}"
 
 

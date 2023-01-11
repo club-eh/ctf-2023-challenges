@@ -11,6 +11,4 @@ Can you decrypt the code to get the flag? We found a tool that might be useful.
 `{129D2UDB_TD00RCB_2QC_590UM_2DPL03DJ}`
 """
 tags = ["Cryptography"]
-
-[scoring]
 flag = "clubeh{4Tl42_K4RRI32_TH3_W0RLD_8JVR69JP}"

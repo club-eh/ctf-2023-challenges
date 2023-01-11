@@ -11,9 +11,6 @@ Can you decode this cipher? Our forensics team is unable to figure this cipher o
 `112250011041{21244235_0154_05_150350051354_3541143141254155}`
 """
 tags = ["Cryptography"]
-
-
-[scoring]
 flag = "clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}"
 
 [[hints]]

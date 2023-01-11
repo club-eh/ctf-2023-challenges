@@ -9,8 +9,6 @@ description = """
 There is a flag hidden within this PDF newsletter, can you find it?
 """
 tags = ["Misc"]
-
-[scoring]
 flag = "clubeh{d4t4_f131d5_dump_g8fas6}"
 
 [[hints]]

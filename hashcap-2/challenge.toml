@@ -11,9 +11,6 @@ We have managed to extract another password hash that we think is associated wit
 **NOTE: Flag Format for this challenge does not follow the normal convention like `clubeh{...}`.
 """
 tags = ["Cryptography"]
-
-
-[scoring]
 flag = "caesar441999"
 
 

@@ -24,9 +24,6 @@ We've discovered an image left behind by one of the hackers of `t3l0s`, we suppo
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Steganography"]
-
-
-[scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{plA70_0n_7hE_W1RE}"
 

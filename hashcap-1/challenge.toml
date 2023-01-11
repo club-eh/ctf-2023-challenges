@@ -25,9 +25,6 @@ We have managed to extract a password hash that we think is associated with one 
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Cryptography"]
-
-
-[scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "caesar44"
 

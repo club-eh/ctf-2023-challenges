@@ -12,9 +12,6 @@ Unfortunately, it looks like we were too late - the secret key is nowhere to be 
 Can you help us out?
 """
 tags = ["Forensics", "Git"]
-
-
-[scoring]
 flag = "clubeh{1gn0r4nc3_15_bl155_c5fec34a}"
 
 

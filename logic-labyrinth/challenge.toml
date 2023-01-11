@@ -9,6 +9,4 @@ description = """
 To get through the Labyrinth, you must follow the TRUE path.
 """
 tags = ["Digital Logic"]
-
-[scoring]
 flag = "clubeh{JSXH5CT}"

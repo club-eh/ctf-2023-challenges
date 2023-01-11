@@ -23,9 +23,6 @@ We've found what we suspect to be one of the hacker's programs for storing secre
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Reverse Engineering"]
-
-
-[scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{tH3s3us_sUcK50rz}"
 

@@ -9,11 +9,7 @@ description = """
 We've managed to capture some data from an adversary - but they seem to have encoded the data in an image?
 """
 tags = ["Forensics"]
-
-
-[scoring]
 flag = "clubeh{p1x3l4t3d_d4t4_118e08f9}"
-
 
 [static]
 include = [

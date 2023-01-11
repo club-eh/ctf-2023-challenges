@@ -23,9 +23,6 @@ We have recovered some data from the hackers. We're sure that they've hidden a m
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Forensics", "Steganography"]
-
-
-[scoring]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{m1N074Ur5_c0LL3c710N}"
 

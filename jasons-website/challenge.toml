@@ -14,7 +14,4 @@ I don't know how it happened - I even used JWTs for security!
 Can you help me determine how they got in?
 """
 tags = ["Web Exploitation", "JWT", "Go"]
-
-
-[scoring]
 flag = "clubeh{1_4h0ugh4_jw45_w3r3_mag1c_2b7887ce}"

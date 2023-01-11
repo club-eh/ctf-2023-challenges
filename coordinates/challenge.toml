@@ -9,6 +9,4 @@ description = """
 We recovered some valuable information after discovering a t3l0s hideout. Unfortunatly they are long gone, but they left in a rush and left some traces behind. Can you see if you can find any clues as to their what their plans are?
 """
 tags = ["Forensics", "Hardware", "Misc"]
-
-[scoring]
 flag = "clubeh{c0mpu73r_num3r1c41_c0n7r01_4fmC5sJz}"

@@ -9,6 +9,4 @@ description = """
 This website is known to hold sensitive t3l0s data, what can you find?
 """
 tags = ["Web Exploitation"]
-
-[scoring]
 flag = "clubeh{41w4y5_54n17123_1npu75_BC42dpKy}"

@@ -24,18 +24,14 @@ Standard markdown is supported.
 # (optional) A list of tags for the challenge, as displayed by CTFd.
 # Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Steganography"]
-
-
-[scoring]
 # The flag that the user must submit to prove they've solved the challenge.
+# If the challenge has multiple valid flags, the `flags` field can be used instead.
 flag = "flag{m3t@da1a}"
+#flags = ["flag{m3t@da1a}"]
 
 
 [[hints]]
 content = "An example hint."
 
 [[hints]]
-content = """
-A second hint. This hint will be displayed underneath the first one.  
-Hints also support multi-line strings and *Markdown*.
-"""
+content = ""
