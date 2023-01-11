@@ -8,6 +8,7 @@
 	max-width: 500px;
 	max-height: auto;
 	transition: 1.5s;
+	pointer-events: none;
 }
 .cipher.background{
 	z-index: 1;
@@ -21,4 +22,3 @@
 .cipher.outer{
 	z-index: 4;
 }
-
