@@ -1,0 +1,16 @@
+[meta]
+id = "blinkenlights-1"
+category = "misc"
+difficulty = "medium"
+name = "Blinkenlights 1"
+description = """
+> by Artemis
+
+Here is another one of the microcontrollers used by t3l0s to send secret messages.
+
+This pattern is different. Could you help me decode it?
+
+Flag format: `clubeh{<recovered_text>}`
+"""
+tags = ["Hardware", "Forensics"]
+flag = "clubeh{n3wtr1ck5325196}"
