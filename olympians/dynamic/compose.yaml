@@ -4,6 +4,9 @@ services:
   apache-php:
     container_name: apache-php
     build: .
+    environment:
+      - DB_HOST=mariadb
+      - DB_PASSWORD=QTzp47dI5GoNqPzl
     ports:
       - "1337:80"
     networks:
@@ -16,6 +19,7 @@ services:
     environment:
       - MARIADB_ROOT_PASSWORD=QTzp47dI5GoNqPzl
       - MARIADB_INITDB_SKIP_TZINFO=1
+      - MARIADB_DATABASE=t3l0s
     networks:
       - olympians-network
 

@@ -6,10 +6,10 @@
 	 */
 	function search(){
 		// Credentials etc used in mysql connection and query
-		$servername = "mariadb";
-		$username = "root";
-		$password = "QTzp47dI5GoNqPzl";
-		$dbname = "ctf";
+		$servername = $_ENV["DB_HOST"];
+		$username = "web";
+		$password = "sup3r_s3cure_p4ssw0rd";
+		$dbname = "t3l0s";
 		$table = "olympians";
 
 		// Connect to database
