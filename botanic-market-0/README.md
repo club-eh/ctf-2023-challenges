@@ -9,7 +9,7 @@ This website is still under construction, can you find a vulnerability?
 <details> 
   <summary>Answer summary and flag</summary>
   
-  There is a double base64 encoded admin cookie that needs to be set to `ZEhKMVpR`, or false in double base64.
+  There is a double base64 encoded admin cookie that needs to be set to `ZEhKMVpR`, or false in double base64 (URL-safe variant).
   
   clubeh{c00k13_4u7h3n71c4710n_15_n07_54f3_eEr328VD}
 </details>
