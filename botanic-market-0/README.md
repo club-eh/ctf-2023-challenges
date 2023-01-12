@@ -19,5 +19,5 @@ This website is still under construction, can you find a vulnerability?
 - Change working directory to `dynamic/`.
 - Run the command `docker-compose build`.
 - Run the command `docker-compose up`.
-- Go to `http://localhost` in your browser.
+- Go to `http://localhost:1337` in your browser.
 
