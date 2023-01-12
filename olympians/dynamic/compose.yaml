@@ -1,0 +1,25 @@
+# Containers used for this application
+services:
+  # Apache/PHP service
+  apache-php:
+    container_name: apache-php
+    build: .
+    ports:
+      - "1337:80"
+    networks:
+      - olympians-network
+
+  # Database service
+  mariadb:
+    container_name: mariadb
+    image: mariadb:10.9
+    environment:
+      - MARIADB_ROOT_PASSWORD=QTzp47dI5GoNqPzl
+      - MARIADB_INITDB_SKIP_TZINFO=1
+    networks:
+      - olympians-network
+
+# Docker networks
+networks:
+  olympians-network:
+    driver: bridge

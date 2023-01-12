@@ -6,7 +6,7 @@
 	 */
 	function search(){
 		// Credentials etc used in mysql connection and query
-		$servername = "mysql";
+		$servername = "mariadb";
 		$username = "root";
 		$password = "QTzp47dI5GoNqPzl";
 		$dbname = "ctf";
