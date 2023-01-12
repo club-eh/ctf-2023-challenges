@@ -10,7 +10,7 @@ if [[ -n "${1:-}" ]]; then
 fi
 
 
-BOOTSTRAP_VER=5.2.2
+BOOTSTRAP_VER=5.2.3
 
 
 dl() {
