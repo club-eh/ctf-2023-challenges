@@ -16,19 +16,19 @@ categories = [
 
 # Define scoring parameters (based on challenge difficulty)
 [scoring]
-expected_player_count = 50
+expected_player_count = 30
 
 [scoring.initial]  # initial point value
-easy	= 90
-medium	= 150
-hard	= 210
+easy	= 250
+medium	= 250
+hard	= 250
 
 [scoring.final]  # lowest possible point value; when solves >= decay
-easy	= 30
+easy	= 50
 medium	= 50
-hard	= 70
+hard	= 50
 
 [scoring.decay]  # controls rate of decay. these are multiplied by scoring.expected_player_count.
-easy	= 0.4
-medium	= 0.3
-hard	= 0.2
+easy	= 1.0
+medium	= 1.0
+hard	= 1.0
