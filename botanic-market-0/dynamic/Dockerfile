@@ -1,3 +1,3 @@
 FROM php:8.1-apache
-COPY . /var/www/html/
-COPY img/* /var/www/html/
+
+COPY ./www/ /var/www/html/
