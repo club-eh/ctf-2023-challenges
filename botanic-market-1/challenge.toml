@@ -1,42 +1,19 @@
-# This is an example challenge definition, written in TOML 1.0 (https://toml.io).
-# All fields are required unless stated otherwise.
-
 [meta]
-# A unique, mostly-internal ID for this challenge.
-# Must match the name of the challenge directory (where this file is).
 id = "botanic-market-1"
-# The ID of the user-facing category this challenge should be grouped under.
-# Must match an existing entry in `../challenge-monorepo.toml`.
 category = "misc"
-# The rated difficulty of the challenge (shown to the player as a title-cased tag).
-# Must be one of "easy", "medium", "hard".
 difficulty = "medium"
-# The user-facing display name of the challenge.
 name = "Botanic Market 1"
-# The user-facing description of the challenge.
-# Supports Markdown + Jinja2.
 description = """
 ## Challenge Description (written in Markdown)
 
 > by Spaghetti
 
-This is where we communicate information about the challenge to the player.  
-Standard markdown is supported, and basic Jinja2 templating should be used to reference files or URLs.
+This domain has been up for some time, but our systems continue to rank its reputation as very risky. Can you test the website's legitimacy?
 
-For example, here is an auto-generated link to a file the player will need: [hidden-message.png]({{ linkify.static("hidden-message.png") }}).
+No automated or bruteforcing tools are allowed or required for this challenge.
 """
-# (optional) A list of tags for the challenge, as displayed by CTFd.
-# Note that the difficulty always shows up as the first tag, regardless of tags defined here.
 tags = ["Artificial Intelligence"]
-# The flag that the user must submit to prove they've solved the challenge.
-flag = "flag{m3t@da1a}"
-
+flag = "clubeh{b4ckd00r_vuLn3r481li7y_t9zDQ85O}"
 
 [[hints]]
-content = "An example hint."
-
-[[hints]]
-content = """
-A second hint. This hint will be displayed underneath the first one.  
-Hints also support multi-line strings and *Markdown*.
-"""
+content = "Enumerate the website first."
