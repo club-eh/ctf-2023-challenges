@@ -13,4 +13,8 @@ This pattern is different. Could you help me decode it?
 Flag format: `clubeh{<recovered_text>}`
 """
 tags = ["Hardware", "Forensics"]
-flag = "clubeh{n3wtr1ck5325196}"
+# Morse code doesn't specify case, so we'll accept both versions
+flags = [
+	"clubeh{n3wtr1ck5325196}",
+	"clubeh{N3WTR1CK5325196}",
+]
