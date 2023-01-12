@@ -19,7 +19,7 @@
 		}
 
 		// Get search term, create and execute query
-		$term = $_REQUEST['search'];
+		$term = str_replace(["%", "_"], "", $_REQUEST['search']);
 		$sql = "SELECT * FROM $table WHERE name LIKE '$term' OR description LIKE '% $term %'";
 		$result = $conn->query($sql);
 
