@@ -6,12 +6,14 @@ name = "Bussin"
 description = """
 > by Spaghetti
 
-Can you decode this cipher? Our forensics team is unable to figure this cipher out, but they did recover the phrase `pegasus` from the rest of the recovered data taken from t3l0s, that might be helpful.
+Can you decode this cipher? Our forensics team is unable to figure out the encryption, but they did recover the phrase `pegasus` from the rest of the data recovered from t3l0s, that might be helpful.
 
 `112250011041{21244235_0154_05_150350051354_3541143141254155}`
+
+Flag format is all uppercase.
 """
 tags = ["Cryptography"]
-flag = "clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}"
+flag = "clubeh{D0N7_B3_4_5QU4R3_7HZFH6H9}"
 
 [[hints]]
-content = "Old cryptography algorithm."
+content = "Very old two dimensional cryptography algorithm."
