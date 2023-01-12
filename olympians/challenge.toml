@@ -7,6 +7,8 @@ description = """
 > by Spaghetti & sudoBash418
 
 This website is known to hold sensitive t3l0s data, what can you find?
+
+No automated or bruteforcing tools are allowed or required for this challenge.
 """
 tags = ["Web Exploitation"]
 flag = "clubeh{41w4y5_54n17123_1npu75_BC42dpKy}"
