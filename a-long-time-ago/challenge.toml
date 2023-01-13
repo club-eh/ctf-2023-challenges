@@ -1,0 +1,15 @@
+[meta]
+id = "a-long-time-ago"
+category = "osint"
+difficulty = "easy"
+name = "A Long Time Ago..."
+description = """
+> by Artemis
+
+Wikipedia contains some interesting information about [Echidna](https://en.wikipedia.org/wiki/Echidna_(mythology)) for us, including a list of her offspring.  
+I swear when I last looked at this in July 2014, there was another monster on the list, but now it's missing. How strange.
+
+The flag format for this challenge is: `clubeh{<name of offspring in lowercase, without spaces>}`
+"""
+tags = ["Open Source Intelligence"]
+flag = "clubeh{teumessianfox}"
