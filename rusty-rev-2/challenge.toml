@@ -15,13 +15,12 @@ Can't promise you won't be cursed in the process though :P
 tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
 flag = "clubeh{5ym601ic_3x3cuti0n_i5_3v3n_m0r3_fun_bb458f72}"
 
-
-# hint to avoid derailment and clarify the "might" in the description
 [[hints]]
+# hint to avoid derailment and clarify the "might" in the description
 content = "This challenge can be solved similarly to Rusty Rev 1 - but you'll want to optimize your script."
 
-# hint for optimization (adding these constraints is important)
 [[hints]]
+# hint for optimization (adding these constraints is important)
 content = """
 Don't forget the flag format:
 1. starts with `clubeh{`
@@ -29,6 +28,12 @@ Don't forget the flag format:
 3. contains only printable ASCII characters
 """
 
-# my optimized script takes ~1 minute (Ryzen 5600X, CPython 3.11.0)
 [[hints]]
-content = "A well-optimized script should be able to get the flag in under 2 minutes."
+# my optimized script takes ~1 minute (Ryzen 5600X, CPython 3.11.0)
+content = """
+A well-optimized script should be able to get the flag in under 3 minutes.  
+You may have better luck with the x86-64 binary compared to the arm64 one.
+"""
+
+[static]
+make_archive = false
