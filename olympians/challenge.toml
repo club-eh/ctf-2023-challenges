@@ -9,6 +9,8 @@ description = """
 This website is known to hold sensitive t3l0s data, what can you find?
 
 No automated or bruteforcing tools are allowed or required for this challenge.
+
+Link: [http://challenges.ctf-2023.clubeh.ca:51155/](http://challenges.ctf-2023.clubeh.ca:51155/)
 """
 tags = ["Web Exploitation"]
 flag = "clubeh{41w4y5_54n17123_1npu75_BC42dpKy}"

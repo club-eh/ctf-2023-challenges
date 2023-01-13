@@ -7,6 +7,8 @@ description = """
 > by Artemis
 
 We found one of 4yph0n's old websites still online - maybe these pages have some information we could use to track them down?
+
+Link: [http://challenges.ctf-2023.clubeh.ca:54495/](http://challenges.ctf-2023.clubeh.ca:54495/)
 """
 tags = ["Web"]
 flag = "clubeh{3ch1dn@_A6E2C145}"
