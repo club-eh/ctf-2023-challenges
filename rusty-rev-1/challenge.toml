@@ -15,18 +15,20 @@ Have fun!
 tags = ["Reverse Engineering", "Symbolic Execution", "Rust"]
 flag = "clubeh{cr4ck1ng_4_ru5ty_l0ck_20fbbc23}"
 
-
 [[hints]]
 content = "`angr` should prove useful."
 
-# my *unoptimized* script takes ~5 seconds
 [[hints]]
+# my *unoptimized* script takes ~5 seconds
 content = "Your script should not take more than a minute to find the solution."
 
-# for people who are stuck, possibly new to angr, and wondering what on earth they're doing wrong
 [[hints]]
+# for people who are stuck, possibly new to angr, and wondering what on earth they're doing wrong
 content = """
 If you know C, try testing your script out on a proof-of-concept C binary to better understand what's happening.
 
 If you don't know C, you can find practice examples online (with source code) for the same purpose.
 """
+
+[static]
+make_archive = false
