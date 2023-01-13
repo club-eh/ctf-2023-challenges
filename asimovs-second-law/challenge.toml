@@ -16,8 +16,3 @@ flag = "clubeh{h1d1ng_fr0m_4h3_r0b045_7d37c0ec}"
 
 [[hints]]
 content = "What part of a website does Googlebot visit first?"
-
-
-[dynamic.webserver]
-build = "Containerfile"
-ports = { web = 1337 }

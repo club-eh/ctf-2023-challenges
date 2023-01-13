@@ -10,8 +10,3 @@ We found one of 4yph0n's old websites still online - maybe these pages have some
 """
 tags = ["Web"]
 flag = "clubeh{3ch1dn@_A6E2C145}"
-
-
-[dynamic.webserver]
-build = "Containerfile"
-ports = { web = 1337 }
