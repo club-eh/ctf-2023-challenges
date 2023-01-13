@@ -1,3 +1,5 @@
+# syntax=docker.io/docker/dockerfile:1.4
+
 FROM cgr.dev/chainguard/go:1.19-musl as build
 
 WORKDIR /build
