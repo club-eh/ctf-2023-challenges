@@ -8,7 +8,6 @@ OUTDIR="../out"
 CCFLAGS=(
 	-Wall
 	-std=c11
-	-march=x86-64-v2
 
 	# optimizations
 	-O2
@@ -22,7 +21,7 @@ CCFLAGS=(
 	-Wl,-O,--as-needed,-z,now  # optimizations-ish
 
 	# security
-	-fcf-protection=full  # code flow protection
+	#-fcf-protection=full  # code flow protection - doesn't work on ARM64
 	# following options are disabled to avoid distracting players
 	#-fstack-clash-protection
 	#-fstack-protector-strong  # stack canaries
@@ -30,4 +29,5 @@ CCFLAGS=(
 )
 
 
-gcc "${CCFLAGS[@]}" main.c -lverify -o "$OUTDIR"/flag-checker
+x86_64-pc-linux-gnu-gcc -march=x86-64-v2 "${CCFLAGS[@]}" main.c -lverify -o "$OUTDIR"/flag-checker
+aarch64-linux-gnu-gcc "${CCFLAGS[@]}" main.c -lverify-arm64 -o "$OUTDIR"/flag-checker-arm64
