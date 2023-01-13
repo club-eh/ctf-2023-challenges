@@ -10,3 +10,6 @@ To get through the Labyrinth, you must follow the TRUE path.
 """
 tags = ["Digital Logic"]
 flag = "clubeh{JSXH5CT}"
+
+[[hints]]
+content = "These symbols look like Logic Gates!"
