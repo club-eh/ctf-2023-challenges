@@ -11,8 +11,7 @@ We thought we found a flag... but it's hidden inside this executable!
 Can you figure out its secret?
 """
 tags = ["Reverse Engineering", "Rust"]
-flag = "clubeh{b1n4ry_r3v3rs1ng_13_fun_f5dd17b2}"
-
+flag = "clubeh{b1n4ry_r3v3r51ng_15_fun_f5dd17b2}"
 
 [[hints]]
 content = "Static analysis is a good place to start. Ghidra should do the trick."
