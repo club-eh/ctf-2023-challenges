@@ -1,6 +1,4 @@
-# container image used for compiling the binary
-TOOLCHAIN_IMAGE := "docker.io/library/rust:1.65"
-# name of the main binary
+# base name of the main binaries
 BIN_NAME := "hacking-through-time"
 # output path
 OUTFILE := "out" / BIN_NAME
@@ -13,15 +11,16 @@ build:
 	# encode flag into Rust source code
 	python encode_flag.py $(<flag.txt) src/constants.rs
 
-	# compile the binary
-	podman run -it --rm -w /build -v ./:/build/ {{TOOLCHAIN_IMAGE}} \
-		cargo build --release
+	# compile the binaries
+	cargo build --release
+	cargo build --release --target=aarch64-unknown-linux-gnu
 
 	install -DTpm755 ./target/release/{{BIN_NAME}} {{OUTFILE}}
+	install -DTpm755 ./target/aarch64-unknown-linux-gnu/release/{{BIN_NAME}} {{OUTFILE}}-arm64
 
-# "install" the binary to static/
+# "install" the binaries to static/
 install:
-	install -Dpm755 -t ../static {{OUTFILE}}
+	install -Dpm755 -t ../static {{OUTFILE}} {{OUTFILE}}-arm64
 
 # remove build files
 clean:
