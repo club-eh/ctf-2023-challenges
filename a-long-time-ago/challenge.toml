@@ -13,3 +13,6 @@ The flag format for this challenge is: `clubeh{<name of offspring in lowercase, 
 """
 tags = ["Open Source Intelligence"]
 flag = "clubeh{teumessianfox}"
+
+[[hints]]
+content = "So many people can edit Wikipedia, I wonder how they keep track of the changes."
