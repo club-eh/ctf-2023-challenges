@@ -1,0 +1,15 @@
+[meta]
+id = "artemis"
+category = "osint"
+difficulty = "medium"
+name = "Artemis"
+description = """
+> by Artemis
+
+One of our challenge creators, Artemis, used to attend the University of Alberta in 2013.  
+See if you can find her student ID from the time she went there.
+
+The flag format for this challenge is: `clubeh{uofa_<STUDENT ID NUMBER HERE>}`
+"""
+tags = ["Open Source Intelligence"]
+flag = "clubeh{uofa_676713106071}"
