@@ -1,0 +1,14 @@
+[meta]
+id = "blinkenlights-2"
+category = "misc"
+difficulty = "hard"
+name = "Blinkenlights 2"
+description = """
+> by Artemis
+
+This is the last t3l0s microcontroller we found containing secret messages.
+
+We have no idea what's going on with this one. Good luck.
+"""
+tags = ["Hardware", "Forensics"]
+flag = "clubeh{cc_x0r_l3d$_6432684}"
