@@ -1,0 +1,24 @@
+.key-input{
+	width: 50px;
+}
+.cipher{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 500px;
+	max-height: auto;
+	transition: 1.5s;
+	pointer-events: none;
+}
+.cipher.background{
+	z-index: 1;
+}
+.cipher.inner{
+	z-index: 2;
+}
+.cipher.middle{
+	z-index: 3;
+}
+.cipher.outer{
+	z-index: 4;
+}

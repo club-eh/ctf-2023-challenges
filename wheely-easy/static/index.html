@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="src/spin.js"></script>
+</head>
+<body>
+	<label for="key1">Key 1: </label>
+	<input type="number" class="key-input" id="key1" name="key1">
+	<button type="button" onClick="rotateMiddle()">Submit</button>
+	<br><br>
+	<label for="key2">Key 2: </label>
+	<input type="number" class="key-input" id="key2" name="key2">
+	<button type="button" onClick="rotateInner()">Submit</button>
+	<div style="position: relative;">
+		<img class="cipher background" src="img/background.png" 
+id="background">
+		<img class="cipher inner" src="img/inner.png" id="inner">
+		<img class="cipher middle" 
+src="img/middle.png"id="middle">
+		<img class="cipher outer" src="img/outer.png"id="outer">
+	</div>
+</body>
+</html>

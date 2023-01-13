@@ -1,0 +1,14 @@
+[meta]
+id = "wheely-easy"
+category = "crypto"
+difficulty = "easy"
+name = "Wheely Easy"
+description = """
+> by Artemis
+
+Can you decrypt the code to get the flag? We found a tool that might be useful.
+
+`IR0HKN{AZOA8_QAXXO98_ZN9_26XRJ_EP1XCFPV}`
+"""
+tags = ["Cryptography"]
+flag = "clubeh{4TL42_K4RRI32_TH3_W0RLD_8JVR6AJP}"
