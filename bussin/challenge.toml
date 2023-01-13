@@ -8,7 +8,7 @@ description = """
 
 Can you decode this cipher? Our forensics team is unable to figure out the encryption, but they did recover the phrase `pegasus` from the rest of the data recovered from t3l0s, that might be helpful.
 
-`112250011041{21244235_0154_05_150350051354_3541143141254155}`
+`223361122152{32355346_1265_16_261461162465_4652254252365266}`
 
 Flag format is all uppercase.
 """
