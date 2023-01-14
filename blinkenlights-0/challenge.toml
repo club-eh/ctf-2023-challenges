@@ -16,3 +16,6 @@ One is in grayscale (`-gray`), the other in full RGB. **You only need one to sol
 """
 tags = ["Hardware", "Forensics"]
 flag = "clubeh{r3d_@nd_9r33n_65843167}"
+
+[static]
+make_archive = false
