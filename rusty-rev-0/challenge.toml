@@ -19,5 +19,11 @@ content = "Static analysis is a good place to start. Ghidra should do the trick.
 [[hints]]
 content = "Dynamic analysis can get you the flag too; try `gdb`."
 
+[[hints]]
+content = """
+The `flag-checker-arm64` file is for ARM64 computers, such as newer Apple devices.  
+Most players will want the `flag-checker` file, for x86-64 computers.
+"""
+
 [static]
 make_archive = false
