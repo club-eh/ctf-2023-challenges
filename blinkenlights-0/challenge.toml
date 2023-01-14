@@ -10,6 +10,9 @@ We found some microcontrollers the hackers were using to send each other secret 
 I wonder what this one says?
 
 The lights seem to alternate in colour.
+
+Note: there are two versions of the exact same recording.  
+One is in grayscale (`-gray`), the other in full RGB. **You only need one to solve the challenge.**
 """
 tags = ["Hardware", "Forensics"]
 flag = "clubeh{r3d_@nd_9r33n_65843167}"
