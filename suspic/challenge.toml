@@ -25,9 +25,3 @@ We've discovered an image that we find pretty sus, can you figure out what it's 
 tags = ["Forensics"]
 # The flag that the user must submit to prove they've solved the challenge.
 flag = "clubeh{m1n074ur_h1dd3n_1n_pl41N_s16h7}"
-
-
-[[hints]]
-content = """
-look up "magic bytes"
-"""
