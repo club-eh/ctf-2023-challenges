@@ -13,7 +13,10 @@ Can you decode this cipher? Our forensics team is unable to figure out the encry
 Flag format is all uppercase.
 """
 tags = ["Cryptography"]
-flag = "clubeh{D0N7_B3_4_5QU4R3_7HZFH6H9}"
+flags = [
+	"clubeh{D0N7_B3_4_5QU4R3_7HZFH6H9}",
+	"CLUBEH{D0N7_B3_4_5QU4R3_7HZFH6H9}",
+]
 
 [[hints]]
 content = "Very old two dimensional cryptography algorithm."
