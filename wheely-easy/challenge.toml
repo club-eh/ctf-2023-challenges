@@ -11,4 +11,7 @@ Can you decrypt the code to get the flag? We found a tool that might be useful.
 `IR0HKN{AZRA8_IAXXO98_ZN9_26XRJ_EP1XCFGPV}`
 """
 tags = ["Cryptography"]
-flag = "clubeh{4TL42_C4RRI32_TH3_W0RLD_8JVR6AJP}"
+flags = [
+	"clubeh{4TL42_C4RRI32_TH3_W0RLD_8JVR6AJP}",
+	"CLUBEH{4TL42_C4RRI32_TH3_W0RLD_8JVR6AJP}",
+]
