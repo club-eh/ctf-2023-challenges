@@ -11,6 +11,10 @@ Here is another one of the microcontrollers used by t3l0s to send secret message
 This pattern is different. Could you help me decode it?
 
 Flag format: `clubeh{<recovered_text>}`
+
+
+Note: there are two versions of the exact same recording.  
+One is in grayscale (`-gray`), the other in full RGB. **You only need one to solve the challenge.**
 """
 tags = ["Hardware", "Forensics"]
 # Morse code doesn't specify case, so we'll accept both versions
@@ -18,3 +22,6 @@ flags = [
 	"clubeh{n3wtr1ck5325196}",
 	"clubeh{N3WTR1CK5325196}",
 ]
+
+[static]
+make_archive = false
