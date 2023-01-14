@@ -6,6 +6,9 @@ name = "Sanity Check"
 description = """
 > by sudoBash418
 
-Join [our Discord server](https://discord.com/invite/zPsVmQ3R) to get a flag!
+Join [our Discord server](https://discord.com/invite/zPsVmQ3R) to get a flag!  
+You'll need to look at the different channels to find it.
+
+To clarify: the flag will be in the format `clubeh{...}` in Discord.
 """
 flag = "clubeh{s4n1ty_ch3ck_bf2095e4}"
