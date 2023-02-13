@@ -1,0 +1,28 @@
+intended solve (or something along these lines):
+1. download one of the .pyc reversing tools from the internet (uncompyle/decompyle), it will likely not work and tell the player that the python bytecode is python 3.10
+2. google decompyle python 3.10, find this tool https://github.com/zrax/pycdc
+3. need to compile it using CMAKE, and then make (this point may be a serious bottleneck that stops most beginners)
+4. run pycdc on the secretman.pyc file to then understand the code better
+5. realize that the two strings at the beginning of the file are a super simple way to hide the flag within the first two-dimensional string array using [index][index] combinations.
+6. either manually get the flag from the 2-dim array
+or write a python script to do it for you,
+or copy the function from the decompyled secretman.pyc and paste that with the strings into a python script to automate it for you
+
+
+Additional solves by SudoBash
+
+$ ipython
+In[1]: import secretman
+main menu displays, enter 5 to exit
+type secretman. and use tab-completion to view module globals
+In[2]: secretman.translate_key()
+Out[2]: 'clubeh{<REDACTED>}'
+
+Personally, I tried using pycdc first and got confused as to why there seemed to be a key but no actual data; but on second glance, if I read the description a little closer I would've picked up on the "secret key" so I don't think that's a problem with the challenge.
+It's also worth noting that pycdc is not able to properly decompile the entire module - a slight hazard for throwing players off (that said, as long as they're focused on finding "the secret key" they should be fine).
+
+Edit: here's a 3-line python solve script:
+__builtins__.input = lambda x: "5"  # override input() function (optional)
+import secretman
+print(secretman.translate_key())
+

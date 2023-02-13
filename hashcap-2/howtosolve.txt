@@ -1,0 +1,15 @@
+hash1: caesar44
+method:
+1. put hash into a hash.txt file
+2. run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt
+3. copy and paste the password as the flag :)
+
+hash2: caesar441999
+1. put hash into a hash.txt file
+2. run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt --rules=appendyears
+3. copy and paste the password as the flag :)
+
+hash3: 69caesar4469
+1. put hash into a hash.txt file
+2. run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt --rules=prepend2numbersappend2numbers
+3. copy and paste the password as the flag :)

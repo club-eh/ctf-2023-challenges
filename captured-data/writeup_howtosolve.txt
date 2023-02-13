@@ -1,0 +1,3 @@
+1. challenge is an encoded JWT token, sort of tip-off to this is that it starts with `eyJ...`, most JWT's start with something like this.
+2. Solve by pasting the encoded text into CyberChef's input field and run the "magic" operation in the recipe column. Cyberchef will immediately tell that it's a JWT and decode it for you.
+3. see the flag inside the JWT, "clubeh{UnC4P7ur48L3}".

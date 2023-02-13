@@ -1,0 +1,1 @@
+1. Solve by running "strings" on the file, it will print out any strings that are discovered within it. You should see the flag as the last thing printed from the image.

@@ -1,0 +1,8 @@
+Zip file encrypted with ZipCrypt. Intended solve:
+- player uses zip2john and john to crack the password
+- flag.txt within has the flag.
+
+1. Ideally you'll google "how to crack a zip file".
+1a. you'll find instructions on how to use zip2john to exctract the password hash from the zip file.
+1b. run john against the password hash file using a password wordlist like rockyou.txt (a common dictionary used for CTFs)
+2. John should crack it pretty fast since the password is in the rockyou.txt wordlist.

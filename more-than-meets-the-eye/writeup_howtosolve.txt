@@ -1,0 +1,6 @@
+1. tip that it's in the forensics category means that you should probably look up how to perform digital forensics on a binary.
+2. common technique for binary analysis is to run binwalk on it to find any hidden filetypes within it.
+2a. run binwalk -e to extract any files that are discovered.
+3. the flag will be an extracted image from the binary. 
+
+there are many other files within it that are meant to distract you from the flag.
