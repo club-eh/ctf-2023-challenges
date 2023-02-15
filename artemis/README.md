@@ -1,6 +1,6 @@
 # Artemis
 
-<i>Medium OSINT challenge by Artemis</i>
+<i>Medium OSINT Challenge by Artemis</i>
 
 ### Challenge Question
 
@@ -11,7 +11,7 @@ See if you can find her student ID from the time she went there.
 The flag format for this challenge is: `clubeh{uofa_<STUDENT ID NUMBER HERE>}`
 
 <details> 
-  <summary>Answer summary</summary>
+  <summary>Answer Summary</summary>
   <ol>
     <li>1. Go to the discord profile of the creator artemis</li>
     <li>2. Go to github link to find the student ID</li>
