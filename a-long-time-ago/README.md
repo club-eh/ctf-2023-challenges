@@ -10,6 +10,11 @@ I swear when I last looked at this in July 2014, there was another monster on th
 The flag format for this challenge is `clubeh{...}`, replacing the `...` with the name of offspring in lowercase (no spaces).
 
 <details> 
+  <summary>Hints/summary>
+  So many people can edit Wikipedia, I wonder how they keep track of the changes.
+</details>
+
+<details> 
   <summary>Answer summary and flag</summary>
   
   Steps:
