@@ -13,7 +13,7 @@ Can you help us out?
 <details> 
   <summary>Hints</summary>
   <ol>
-    <li>`git commit --amend && git push --force` is not always a silver bullet.</li>
+    <li><i>git commit --amend && git push --force</i> is not always a silver bullet.</li>
   </ol>
 </details>
 
