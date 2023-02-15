@@ -13,5 +13,5 @@ We discovered a t3l0s hideout but they are gone, along with their data. They mus
   
   Add the `.gcode` extension to the file and use an [online GCODE visualizer](https://cnc.im/homeworks/dxf-3dprinter/index.html) to see the flag. `3D mode` in the tool is easier to see.
   
-  flag: clubeh{c0mpu73r_num3r1c41_c0n7r01_4fmC5sJz}
+  Flag: clubeh{c0mpu73r_num3r1c41_c0n7r01_4fmC5sJz}
 </details>
