@@ -11,9 +11,11 @@ Think you can manipulate time?
 <details> 
   <summary>Hints</summary>
   1. Tracing library calls might help.
+  
   2. This ain't `exploit`: nothing's stopping you from hooking whatever you want.
-  3. """The `hacking-through-time-arm64` file is for ARM64 computers, such as newer Apple devices.  
-  Most players will want the `hacking-through-time` file, for x86-64 computers."""
+  
+  3. The `hacking-through-time-arm64` file is for ARM64 computers, such as newer Apple devices.  
+  Most players will want the `hacking-through-time` file, for x86-64 computers.
 </details>
 
 <details> 
