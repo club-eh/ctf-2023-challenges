@@ -1,6 +1,6 @@
 # Hashcap-1
 
-Medium Cryptography challenge by tetratarius
+<i>Medium Cryptography Challenge by tetratarius</i>
 
 ### Challenge Question
 
@@ -12,16 +12,21 @@ Flag format: `clubeh{<cracked_password>}`
 
 <details> 
   <summary>Hint</summary>
-  Look up how to crack password hashes... maybe advanced password cracking...
+  <ol>
+    <li>Look up how to crack password hashes... maybe advanced password cracking...</li>
+  </ol>
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  <br>
-  Steps: <br>
-  1. put hash into a hash.txt file <br>
-  2. run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt --rules=appendyears<br>
-  3. copy and paste the password as the flag :)<br><br>
-  
-  Flag: clubeh{caesar441999}
+  <summary>Answer Summary</summary>
+  <ol>
+    <li>Put hash into a hash.txt file</li>
+    <li>Run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt --rules=appendyears</li>
+    <li>Copy and paste the password as the flag :)</li>
+  </ol>
+</details>
+
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{caesar441999}</b>
 </details>
