@@ -1,6 +1,6 @@
 # Blinkenlights-1
 
-Medium MISC (Hardware and Forensics) challenge by Artemis
+<i>Medium MISC (Hardware and Forensics) Challenge by Artemis</i>
 
 ### Challenge Question
 
@@ -15,15 +15,14 @@ One is in grayscale (`-gray`), the other in full RGB.
 **You only need one to solve the challenge.**
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  
-  Steps:
-  
+  <summary>Answer Summary</summary>
   This challenge displays a hidden message in morse code.<br>
   Both lights on is a "-" and one light on is a ".".<br>
-  
-  I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-1-solve.py
-  
-  Flag: clubeh{n3wtr1ck5325196} or clubeh{N3WTR1CK5325196}
-  
+  I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-1-solve.py  
+</details>
+
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{N3WTR1CK5325196}</b><br>
+  &emsp;<b>clubeh{n3wtr1ck5325196}</b>
 </details>
