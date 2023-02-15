@@ -13,6 +13,7 @@ The flag format for this challenge is `clubeh{...}`, replacing the `...` with th
   <summary>Answer summary and flag</summary>
   
   Steps:
+  
   1. Go into wikipedia history
   2. Go to history from 19:21, 15 April 2014
   3. Find missing offspring under "Offspring" on page
