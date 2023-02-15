@@ -15,8 +15,7 @@ We've found what we suspect to be one of the hacker's programs for storing secre
 </details>
 
 <details> 
-  <summary>Answer Summary</summary>  
-  &nbsp;&nbsp;Intended solve (or something along these lines):
+  <summary>Answer Summary</summary>
   <ol>
     <li>Download one of the .pyc reversing tools from the internet (uncompyle/decompyle), it will likely not work and tell the player that the python bytecode is python 3.10</li>
     <li>Google decompyle python 3.10, find this tool https://github.com/zrax/pycdc</li>
