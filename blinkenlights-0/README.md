@@ -17,6 +17,7 @@ One is in grayscale (`-gray`), the other in full RGB.
   <summary>Answer summary and flag</summary>
   
   Steps:
+  I created a solve script for this challenge. It is located in this folder.
   
   Flag: clubeh{r3d_@nd_9r33n_65843167}
   
