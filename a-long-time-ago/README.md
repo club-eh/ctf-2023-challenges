@@ -27,5 +27,5 @@ The flag format for this challenge is `clubeh{...}`, replacing the `...` with th
 
 <details> 
   <summary>Flag</summary>
-  &emsp;<b>clubeh{teumessianfox}<b>
+  &emsp;<b>clubeh{teumessianfox}</b>
 </details>
