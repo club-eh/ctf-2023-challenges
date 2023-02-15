@@ -12,7 +12,7 @@ The flag format for this challenge is `clubeh{...}`, replacing the `...` with th
 <details> 
   <summary>Hints</summary>
   <ol>
-   &emsp;<li>So many people can edit Wikipedia, I wonder how they keep track of the changes.</li>
+   <li margin-left: 5px;>So many people can edit Wikipedia, I wonder how they keep track of the changes.</li>
   </ol>
 </details>
 
