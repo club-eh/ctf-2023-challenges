@@ -11,8 +11,8 @@ Link: [http://challenges.ctf-2023.clubeh.ca:54495/](http://challenges.ctf-2023.c
 <details> 
   <summary>Answer Summary</summary>
   <ol>
-  &emsp;There is a hidden logo.png file on the page<br>
-  &emsp;To find it, you can do any of the following:
+  There is a hidden logo.png file on the page<br>
+  To find it, you can do any of the following:
     <li>Look at the source code to see the link to the logo. Go to see to see the flag.</li>
     <li>Highlight the page to see there is a missing image. Save it and open it to see the flag.</li>
   </ol>
