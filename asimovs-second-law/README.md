@@ -12,7 +12,9 @@ Link: [http://challenges.ctf-2023.clubeh.ca:49486/](http://challenges.ctf-2023.c
 
 <details> 
   <summary>Hints</summary>
-  What part of a website does Googlebot visit first?
+  <ol>
+    <li>What part of a website does Googlebot visit first?</li>
+  </ol>
 </details>
 
 <details> 
