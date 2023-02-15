@@ -21,7 +21,7 @@ Can you decode this cipher? The only lead we have is `pegasus`
   5 || y | z | 0 | 1 | 2 | 3 |<br>
   6 || 4 | 5 | 6 | 7 | 8 | 9 |<br>
   </p>
-  clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}
+  Flag: clubeh{d0n7_b3_4_5qu4r3_7hzfh6h9}
 </details>
 
 ## Instructions for testers
