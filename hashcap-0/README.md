@@ -1,6 +1,6 @@
 # Hashcap-0
 
-Easy Cryptography challenge by tetratarius
+<i>Easy Cryptography Challenge by tetratarius</i>
 
 ### Challenge Question
 
@@ -11,16 +11,22 @@ Hash: `1c00e6b82bf96321a63b070333e3c48f775d973b951b929e07e309b6d5c8f73c`
 Flag format: `clubeh{<cracked_password>}`
 
 <details> 
-  <summary>Hint</summary>
-  Look up how to crack password hashes...
+  <summary>Hints</summary>
+  <ol>
+    <li>Look up how to crack password hashes...</li>
+  </ol>
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  <br>
-  Steps: <br>
-  1. put hash into a hash.txt file <br>
-  2. run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt<br>
-  3. copy and paste the password as the flag :)<br><br>
-  Flag: clubeh{caesar44}
+  <summary>Answer Summary</summary>
+  <ol>
+    <li>put hash into a hash.txt file</li>
+    <li>run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt</li>
+    <li>copy and paste the password as the flag :)</li>
+  </ol>
+</details>
+
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{caesar44}</b>
 </details>
