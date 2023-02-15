@@ -2,6 +2,8 @@
 
 Contains challenge files and associated configuration.
 
+Meant to be deployed using [sudoBash418's challenge toolkit](https://github.com/club-eh/ctf-challenge-toolkit).
+
 
 ### Flag Format
 
