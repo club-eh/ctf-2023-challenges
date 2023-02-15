@@ -1,6 +1,6 @@
 # Botanic Market 1
 
-Medium MISC (Artificial Intelligence) challenge by Spaghetti & sudoBash418
+<i>Medium MISC (Artificial Intelligence) Challenge by Spaghetti & sudoBash418</i>
 
 ### Challenge Question
 
@@ -12,14 +12,18 @@ Link: [http://challenges.ctf-2023.clubeh.ca:53946/](http://challenges.ctf-2023.c
 
 <details> 
   <summary>Hints</summary>
-  Enumerate the website first.
+  <ol>
+    <li>Enumerate the website first.</li>
+  </ol>
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  
-  Need writeup.
-  
-  Flag: clubeh{b4ckd00r_vuLn3r481li7y_t9zDQ85O}
+  <summary>Answer Summary</summary>
+  &emsp;Need writeup
+</details>
+
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{b4ckd00r_vuLn3r481li7y_t9zDQ85O}</b>
 </details>
 
