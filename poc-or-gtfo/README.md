@@ -15,8 +15,8 @@ There is a flag hidden within this PDF newsletter, can you find it?
 
 <details> 
   <summary>Answer Summary</summary>
-  &emsp;The flag is in the variable name for the email text field. There are lots of tools to get a data dump from the PDF, I used PDF toolkit.<br>
-  &emsp;&emsp;`pdftk poc-or-gtfo.pdf dump_data_fields output data_fields`
+  &emsp;The flag is in the variable name for the email text field. There are lots of tools to get a data dump from the PDF, I used PDF toolkit.<br><br>
+  &emsp;Run the command pdftk poc-or-gtfo.pdf dump_data_fields output data_fields
 </details>
 
 <details> 
