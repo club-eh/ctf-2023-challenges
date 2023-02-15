@@ -31,21 +31,22 @@ We've found what we suspect to be one of the hacker's programs for storing secre
     </ol>
   </ol>
   <br>
-  <ol>
-    &nbsp;&nbsp;Additional solves by SudoBash:
-    &emsp;&emsp;$ ipython
-    &emsp;&emsp;In[1]: import secretman
-    &emsp;&emsp;main menu displays, enter 5 to exit
-    &emsp;&emsp;type secretman. and use tab-completion to view module globals
-    &emsp;&emsp;In[2]: secretman.translate_key()
-    &emsp;&emsp;Out[2]: 'clubeh{<REDACTED>}'
+  <ul>
+    &nbsp;&nbsp;Additional solves by SudoBash:<br>
+    &emsp;&emsp;$ ipython<br>
+    &emsp;&emsp;In[1]: import secretman<br>
+    &emsp;&emsp;main menu displays, enter 5 to exit<br>
+    &emsp;&emsp;type secretman. and use tab-completion to view module globals<br>
+    &emsp;&emsp;In[2]: secretman.translate_key()<br>
+    &emsp;&emsp;Out[2]: 'clubeh{<REDACTED>}'<br>
 
-    Personally, I tried using pycdc first and got confused as to why there seemed to be a key but no actual data; but on second glance, if I read the description a little closer I would've picked up on the "secret key" so I don't think that's a problem with the challenge.
-    It's also worth noting that pycdc is not able to properly decompile the entire module - a slight hazard for throwing players off (that said, as long as they're focused on finding "the secret key" they should be fine).
-    &emsp;&emsp;Edit: here's a 3-line python solve script:
-    &emsp;&emsp;__builtins__.input = lambda x: "5"  # override input() function (optional)
-    &emsp;&emsp;import secretman
-    &emsp;&emsp;print(secretman.translate_key())
+    Personally, I tried using pycdc first and got confused as to why there seemed to be a key but no actual data; but on second glance, if I read the description a little closer I would've picked up on the "secret key" so I don't think that's a problem with the challenge.<br>
+    It's also worth noting that pycdc is not able to properly decompile the entire module - a slight hazard for throwing players off (that said, as long as they're focused on finding "the secret key" they should be fine).<br>
+    &emsp;&emsp;Edit: here's a 3-line python solve script:<br>
+    &emsp;&emsp;__builtins__.input = lambda x: "5"  # override input() function (optional)<br>
+    &emsp;&emsp;import secretman<br>
+    &emsp;&emsp;print(secretman.translate_key())<br>
+  </ul>
 </details>
 
 <details> 
