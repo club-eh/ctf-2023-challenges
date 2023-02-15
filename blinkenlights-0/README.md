@@ -20,9 +20,9 @@ One is in grayscale (`-gray`), the other in full RGB.
 
 <details> 
   <summary>Answer Summary</summary>
-  This challenge is in binary.<br>
-  The green light is "1" and the red light is "0".<br>
-  I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-0-solve.py
+  &emsp;This challenge is in binary.<br>
+  &emsp;The green light is "1" and the red light is "0".<br>
+  &emsp;I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-0-solve.py
 </details>
 
 <details>
