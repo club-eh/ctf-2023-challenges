@@ -15,13 +15,12 @@ One is in grayscale (`-gray`), the other in full RGB.
 <details> 
   <summary>Answer summary and flag</summary>
   
-  Steps: <br>
   This challenge is in binary.
   There is 2 strings split up that must be xor'd after you have retrieved them.
-  Both strings start with xor, so you can figure out this step.
+  Both strings start with xor, to give you a hint to complete this step.
   
-  The green light that stays on for over 1 second signifies that start of string 1.
-  The red light that stays on for over 1 second signifies that start of string 2.
+  The green light that stays on for over 1 second signifies that start of string 1, and is not included in the string.
+  The red light that stays on for over 1 second signifies that start of string 2, and is not included in the string.
   
   String 1:
   Both Red and green is "1".
