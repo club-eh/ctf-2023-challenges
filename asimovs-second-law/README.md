@@ -1,6 +1,6 @@
 # Asimovs Second Law
 
-Easy web challenge by sudoBash418
+Easy Web challenge by sudoBash418
 
 ### Challenge Question
 
