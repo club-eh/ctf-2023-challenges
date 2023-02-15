@@ -1,6 +1,6 @@
 # A long time ago
 
-<i>Easy OSINT challenge by Artemis</i>
+<i>Easy OSINT Challenge by Artemis</i>
 
 ### Challenge Question
 
@@ -17,7 +17,7 @@ The flag format for this challenge is `clubeh{...}`, replacing the `...` with th
 </details>
 
 <details> 
-  <summary>Answer summary</summary>
+  <summary>Answer Summary</summary>
   <ol>
     <li>Go into wikipedia history</li>
     <li>Go to history from 19:21, 15 April 2014</li>
