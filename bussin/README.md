@@ -4,9 +4,14 @@ Medium cryptography challenge by Spaghetti
 		
 ### Challenge Question
 
-Can you decode this cipher? The only lead we have is `pegasus`
+Can you decode this cipher? Our forensics team is unable to figure out the encryption, but they did recover the phrase `pegasus` from the rest of the data recovered from t3l0s, that might be helpful.
 
-223361122152{32355346_1265_16_261461162465_4652254252365266}
+`223361122152{32355346_1265_16_261461162465_4652254252365266}`
+
+<details>
+  <summary>Hints</summary>
+  Very old two dimensional cryptography algorithm.
+</details>
 
 <details>
   <summary>Answer summary and flag</summary>
