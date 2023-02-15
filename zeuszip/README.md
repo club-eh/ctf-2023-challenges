@@ -15,12 +15,13 @@ We've extracted a file from one of t3l0s' hacker's dropbox servers, but the file
 
 <details> 
   <summary>Answer Summary</summary>
-  <ol>
-    <li>Run sudo zip2john zues.zip > ziphash.txt</li>
-    <li>Run sudo john --format=zip ziphash.txt --wordlist=/usr/share/wordlists/rockyou.txt</li>
-    <li>Extract the flag.txt file from zues.zip using cracked password.</li>
-    <li>Read flag.txt to get the flag.</li>
-  </ol>
+
+  1. Generate hash file for [John the Ripper](https://www.openwall.com/john/):  
+     `zip2john zeus.zip > ziphash.txt`
+  2. Crack the password using the `rockyou` wordlist:  
+     `john --format=zip ziphash.txt --wordlist=/usr/share/wordlists/rockyou.txt`
+  3. Extract `flag.txt` from the archive using the cracked password.
+  4. Read `flag.txt` to get the flag.
 </details>
 
 <details> 
