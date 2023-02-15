@@ -17,9 +17,10 @@ Flag format: `clubeh{<cracked_password>}`
 
 <details> 
   <summary>Answer summary and flag</summary>
+  <br>
   Steps: <br>
   1. put hash into a hash.txt file <br>
   2. run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt<br>
-  3. copy and paste the password as the flag :)<br>
+  3. copy and paste the password as the flag :)<br><br>
   Flag: clubeh{caesar44}
 </details>
