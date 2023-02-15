@@ -1,6 +1,6 @@
 # Hacking Through Time
 
-Medium Reverse Engineering challenge by sudoBash418
+<i>Medium Reverse Engineering Challenge by sudoBash418</i>
 
 ### Challenge Question
 
@@ -10,14 +10,19 @@ Think you can manipulate time?
 
 <details> 
   <summary>Hints</summary>
-  1. Tracing library calls might help.<br>
-  2. This ain't `exploit`: nothing's stopping you from hooking whatever you want.<br>
-  3. The `hacking-through-time-arm64` file is for ARM64 computers, such as newer Apple devices. Most players will want the `hacking-through-time` file, for x86-64 computers.
+  <ol>
+    <li>Tracing library calls might help.</li>
+    <li>This ain't `exploit`: nothing's stopping you from hooking whatever you want.</li>
+    <li>The `hacking-through-time-arm64` file is for ARM64 computers, such as newer Apple devices. Most players will want the `hacking-through-time` file, for x86-64 computers.</li>
+  </ol>
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  Need writeup.
-  
-  Flag: clubeh{0h_h0w_71m3_fl135_wh3n_y0u_h4ck_7h3_m41nfr4m3_ab40440b}
+  <summary>Answer Summary</summary>
+  &emsp;Need writeup
+</details>
+
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{0h_h0w_71m3_fl135_wh3n_y0u_h4ck_7h3_m41nfr4m3_ab40440b}</b>
 </details>
