@@ -19,7 +19,7 @@ Link: [http://challenges.ctf-2023.clubeh.ca:49486/](http://challenges.ctf-2023.c
 
 <details> 
   <summary>Answer Summary</summary>
-  <p>Need writeup.</p>
+  &emsp;<p>Need writeup.</p>
 </details>
 
 <details>
