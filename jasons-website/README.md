@@ -32,7 +32,7 @@ Link: [http://challenges.ctf-2023.clubeh.ca:61214/](http://challenges.ctf-2023.c
     &emsp;sh curl -H 'Cookie: token=<token>' <url>
    </ol>
 
-    <b>NOTE:</b> There is also a 32 characters password `3f*So0gmedVPRsoDD!kxx7fCfjfNkn*FW`, which can be used to login directly, the program file contains the bcrypt hash of the password.It is almost impossible to get the password using password cracking from the hash, therefore the hash is hard coded in the program itself.
+    <b>NOTE:</b>There is also a 32 characters password `3f*So0gmedVPRsoDD!kxx7fCfjfNkn*FW`, which can be used to login directly, the program file contains the bcrypt hash of the password.It is almost impossible to get the password using password cracking from the hash, therefore the hash is hard coded in the program itself.
 </details>
 
 <details> 
