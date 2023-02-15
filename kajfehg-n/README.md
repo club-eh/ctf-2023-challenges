@@ -1,37 +1,45 @@
 # kAjfehg n
 
-Medium reverse challenge by Spaghetti
+<i>Medium Reverse Engineering Challenge by Spaghetti</i>
 
 ### Challenge Question
 
-What is the output of this code?
+Our forensics team ripped this firmware off a strange proprietary electronic device that was confiscated from a t3l0s member. Can you figure out what it does?
+
 
 <details> 
-  <summary>Answer trace and flag</summary>
-flag: clubeh{e50t3r1c_l4nguage_ej65h34}
+  <summary>Hints</summary>
+  <ol>
+   <li>The language that the file is written in is Uyjhmn n</li>
+  </ol>
+</details>
 
-<br>;program starts here. create 2/3 variables. assign the ascii value `b` to v1
-<br>DECLARE THE NEW VARIABLE v1
-<br>DECLARE THE NEW VARIABLE v2
-<br>OPEN THE VARIABLE v1
-<br>ASSIGN 98 TO THE OPEN VARIABLE
-
-<br>;print `club`
-<br>PRINT THE CHARACTER WITH THE ASCII VALUE 99
-<br>PRINT THE CHARACTER WITH THE ASCII VALUE 108
-<br>PRINT THE CHARACTER WITH THE ASCII VALUE 117
-<br>PRINT THE OPEN VARIABLE'S CHARACTER
-
-<br>;create the last variable `nine` used for tricks later
-<br>DECLARE THE NEW VARIABLE nine
-<br>OPEN THE VARIABLE nine
-<br>ASSIGN 9 TO THE OPEN VARIABLE
-
-<br>;print `eh`
-<br>PRINT THE CHARACTER WITH THE ASCII VALUE 101
-<br>PRINT THE CHARACTER WITH THE ASCII VALUE 104
-<br>JUMP TO label1 IF v1 IS GREATER THAN nine
-
+<details> 
+  <summary>Answer Summary</summary>
+  &emsp;<b>Trace the following:</b>
+  <br>
+<br>&emsp;&emsp;;program starts here. create 2/3 variables. assign the ascii value `b` to v1
+<br>&emsp;&emsp;DECLARE THE NEW VARIABLE v1
+<br>&emsp;&emsp;DECLARE THE NEW VARIABLE v2
+<br>&emsp;&emsp;OPEN THE VARIABLE v1
+<br>&emsp;&emsp;ASSIGN 98 TO THE OPEN VARIABLE
+<br>
+<br>&emsp;&emsp;;print `club`
+<br>&emsp;&emsp;PRINT THE CHARACTER WITH THE ASCII VALUE 99
+<br>&emsp;&emsp;PRINT THE CHARACTER WITH THE ASCII VALUE 108
+<br>&emsp;&emsp;PRINT THE CHARACTER WITH THE ASCII VALUE 117
+<br>&emsp;&emsp;PRINT THE OPEN VARIABLE'S CHARACTER
+<br>
+<br>&emsp;&emsp;;create the last variable `nine` used for tricks later
+<br>&emsp;&emsp;DECLARE THE NEW VARIABLE nine
+<br>&emsp;&emsp;OPEN THE VARIABLE nine
+<br>&emsp;&emsp;ASSIGN 9 TO THE OPEN VARIABLE
+<br>
+<br>&emsp;&emsp;;print `eh`
+<br>&emsp;&emsp;PRINT THE CHARACTER WITH THE ASCII VALUE 101
+<br>&emsp;&emsp;PRINT THE CHARACTER WITH THE ASCII VALUE 104
+<br>&emsp;&emsp;JUMP TO label1 IF v1 IS GREATER THAN nine
+<br>
 <br>; label for `4ge` the first char is incorrect but will merge to give a partially correct output
 <br>; nine=161 v1=117 v2=103
 <br>DEFINE THE NEW LABEL label7
@@ -257,6 +265,7 @@ flag: clubeh{e50t3r1c_l4nguage_ej65h34}
 <br>JUMP TO label7 IF nine IS EQUAL TO nine 	;this will never happen
 </details>
 
-## Instructions for testers
-
-- File for the challenge is in static/
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{e50t3r1c_l4nguage_ej65h34j}</b>
+</details>
