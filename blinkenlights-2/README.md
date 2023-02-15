@@ -15,7 +15,7 @@ One is in grayscale (`-gray`), the other in full RGB.
 <details> 
   <summary>Answer summary and flag</summary>
   
-  Steps:
+  Steps: <br>
   This challenge is in binary.
   There is 2 strings split up that must be xor'd after you have retrieved them.
   Both strings start with xor, so you can figure out this step.
