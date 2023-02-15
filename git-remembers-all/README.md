@@ -1,6 +1,6 @@
 # Git Remembers All
 
-Medium Forensics challenge by sudoBash418
+<i>Medium Forensics Challenge by sudoBash418</i>
 
 ### Challenge Question
 
@@ -12,14 +12,19 @@ Can you help us out?
 
 <details> 
   <summary>Hints</summary>
-  
-  """`git commit --amend && git push --force` is not always a silver bullet."""
+  <ol>
+    <li>`git commit --amend && git push --force` is not always a silver bullet.</li>
+  </ol>
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  
-  Need writeup.
-  
-  Flag: clubeh{1gn0r4nc3_15_bl155_c5fec34a}
+  <summary>Answer Summary</summary>
+  &emsp;Need writeup
 </details>
+
+<details> 
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{1gn0r4nc3_15_bl155_c5fec34a}</b>
+</details>
+
+
