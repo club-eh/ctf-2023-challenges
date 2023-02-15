@@ -18,8 +18,9 @@ One is in grayscale (`-gray`), the other in full RGB.
   <summary>Answer summary and flag</summary>
   
   Steps:
-  This challenge displays a hidden message in morse code.
-  Both lights on is a "-" and one light on is a ".".
+  
+  This challenge displays a hidden message in morse code.<br>
+  Both lights on is a "-" and one light on is a ".".<br>
   
   I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-1-solve.py
   
