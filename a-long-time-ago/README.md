@@ -1,6 +1,6 @@
 # A long time ago
 
-Easy OSINT challenge by Artemis
+<i>Easy OSINT challenge by Artemis</i>
 
 ### Challenge Question
 
@@ -10,18 +10,18 @@ I swear when I last looked at this in July 2014, there was another monster on th
 The flag format for this challenge is `clubeh{...}`, replacing the `...` with the name of offspring in lowercase (no spaces).
 
 <details> 
-  <summary>Hints</summary>
-  So many people can edit Wikipedia, I wonder how they keep track of the changes.
+  <summary><u>Hints<u></summary>
+  1. So many people can edit Wikipedia, I wonder how they keep track of the changes.
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  
-  Steps:
-  
-  1. Go into wikipedia history
-  2. Go to history from 19:21, 15 April 2014
-  3. Find missing offspring under "Offspring" on page
-  
-  Flag: clubeh{teumessianfox}
+  <summary><u>Answer summary<u></summary>
+  1. Go into wikipedia history<br>
+  2. Go to history from 19:21, 15 April 2014<br>
+  3. Find missing offspring under "Offspring" on page<br>
+</details>
+
+<details> 
+  <summary><u>Flag<u></summary>
+  <b>clubeh{teumessianfox}<b>
 </details>
