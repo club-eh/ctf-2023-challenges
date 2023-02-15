@@ -23,6 +23,6 @@ One is in grayscale (`-gray`), the other in full RGB.
   
   I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-1-solve.py
   
-  Flag: clubeh{n3wtr1ck5325196}
+  Flag: clubeh{n3wtr1ck5325196} or clubeh{N3WTR1CK5325196}
   
 </details>
