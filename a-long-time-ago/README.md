@@ -23,7 +23,7 @@ The flag format for this challenge is `clubeh{...}`, replacing the `...` with th
     <li>Go to history from 19:21, 15 April 2014</li>
     <li>Find missing offspring under "Offspring" on page</li>
   </ol>
-  &nbsp;&nbsp;&nbsp;<b>clubeh{teumessianfox}</b>
+  &nbsp;&nbsp;&nbsp;<b>clubeh{teumessianfox}</b><br>
   &nbsp;&nbsp;<b>clubeh{teumessianfox}</b>
 </details>
 
