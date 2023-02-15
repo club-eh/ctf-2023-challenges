@@ -17,7 +17,7 @@ We've discovered an image left behind by one of the hackers of `t3l0s`, we suppo
 <details> 
   <summary>Answer summary</summary>
   <ol>
-    <li>Look up common image steganography techniques, i.e., check hacktricks.xyz<li>
+    <li>Look up common image steganography techniques, i.e., check hacktricks.xyz</li>
     <ul>
       <li>Note that the image is a PNG, some stego techniques are unique to PNG and some may not even work on other formats or others may not work on this format.</li>
       <li>The bits in the image may be a hint about "Least Significant Bit" steganography.</li>
