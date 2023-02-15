@@ -18,14 +18,72 @@ Can you decode this cipher? Our forensics team is unable to figure out the encry
 <details>
   <summary>Answer Summary</summary>
   &emsp;This uses a polybius cipher in a col/row notation. `pegasus` is the starting key as seen below.<br>
-<p>
-  --|| 1 | 2 | 3 | 4 | 5 | 6 |<br>
-  1 || p | e | g | a | s | u |<br>
-  2 || b | c | d | f | h | i |<br>
-  3 || j | k | l | m | n | o |<br>
-  4 || q | r | t | v | w | x |<br>
-  5 || y | z | 0 | 1 | 2 | 3 |<br>6 || 4 | 5 | 6 | 7 | 8 | 9 |<br>
-	</p>
+
+<table style="width:50%">
+  <tr>
+	  <td>--</td>
+	  <td>1</td>
+	  <td>2</td>
+	  <td>3</td>
+	  <td>4</td>
+	  <td>5</td>
+	  <td>6</td>
+  </tr>
+  <tr>
+	  <td>1</td>
+	  <td>p</td>
+	  <td>e</td>
+	  <td>g</td>
+	  <td>a</td>
+	  <td>s</td>
+	  <td>u</td>
+  </tr>
+  <tr>
+	  <td>2</td>
+	  <td>b</td>
+	  <td>c</td>
+	  <td>d</td>
+	  <td>f</td>
+	  <td>h</td>
+	  <td>i</td>
+  </tr>
+  <tr>
+	  <td>3</td>
+	  <td>j</td>
+	  <td>k</td>
+	  <td>l</td>
+	  <td>m</td>
+	  <td>n</td>
+	  <td>o</td>
+  </tr>
+  <tr>
+	  <td>4</td>
+	  <td>q</td>
+	  <td>r</td>
+	  <td>t</td>
+	  <td>v</td>
+	  <td>w</td>
+	  <td>x</td>
+  </tr>
+  <tr>
+	  <td>5</td>
+	  <td>y</td>
+	  <td>z</td>
+	  <td>0</td>
+	  <td>1</td>
+	  <td>2</td>
+	  <td>3</td>
+  </tr>
+  <tr>
+	  <td>6</td>
+	  <td>4</td>
+	  <td>5</td>
+	  <td>6</td>
+	  <td>7</td>
+	  <td>8</td>
+	  <td>9</td>
+  </tr>
+</table>
 </details>
 
 <details>
