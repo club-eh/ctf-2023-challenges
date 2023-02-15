@@ -17,6 +17,7 @@ One is in grayscale (`-gray`), the other in full RGB.
   <summary>Answer summary and flag</summary>
   
   Steps:
+  
   This challenge is in binary.
   
   The green light is "1" and the red light is "0".
