@@ -18,7 +18,7 @@ Can you decode this cipher? Our forensics team is unable to figure out the encry
 <details>
   <summary>Answer Summary</summary>
   <br>
-	This uses a polybius cipher in a col/row notation. `pegasus` is the starting key as seen below.<br>
+	This uses a polybius cipher in a col/row notation. `pegasus` is the starting key as seen below.<br><br>
 	<table style="width:50%">
 	  <tr>
 		  <th>--</th>
