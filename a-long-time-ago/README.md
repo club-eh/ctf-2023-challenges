@@ -18,12 +18,14 @@ The flag format for this challenge is `clubeh{...}`, replacing the `...` with th
 
 <details> 
   <summary>Answer summary</summary>
-  1. Go into wikipedia history<br>
-  2. Go to history from 19:21, 15 April 2014<br>
-  3. Find missing offspring under "Offspring" on page<br>
+  <ol>
+    <li>Go into wikipedia history</li>
+    <li>Go to history from 19:21, 15 April 2014</li>
+    <li>Find missing offspring under "Offspring" on page</li>
+  </ol>
 </details>
 
 <details> 
   <summary>Flag</summary>
-  <b>clubeh{teumessianfox}<b>
+  &nbsp;<b>clubeh{teumessianfox}<b>
 </details>
