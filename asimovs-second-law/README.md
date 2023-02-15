@@ -1,6 +1,6 @@
 # Asimovs Second Law
 
-Easy Web challenge by sudoBash418
+<i>Easy Web Challenge by sudoBash418</i>
 
 ### Challenge Question
 
@@ -16,9 +16,11 @@ Link: [http://challenges.ctf-2023.clubeh.ca:49486/](http://challenges.ctf-2023.c
 </details>
 
 <details> 
-  <summary>Answer summary and flag</summary>
-  
-  Need writeup.
+  <summary>Answer Summary</summary>
+  <p>Need writeup.</p>
+</details>
 
-  Flag: clubeh{h1d1ng_fr0m_4h3_r0b045_7d37c0ec}
+<details>
+  <summary>Flag</summary>
+  &emsp;<b>clubeh{h1d1ng_fr0m_4h3_r0b045_7d37c0ec}</b>
 </details>
