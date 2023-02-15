@@ -17,5 +17,5 @@ The flag format for this challenge is: `clubeh{uofa_<STUDENT ID NUMBER HERE>}`
   1. Go to the discord profile of the creator artemis
   2. Go to github link to find the student ID
   
-  clubeh{uofa_676713106071}
+  Flag: clubeh{uofa_676713106071}
 </details>
