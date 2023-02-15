@@ -12,7 +12,14 @@ Find the social media account and you'll find the flag.
 
 <details> 
   <summary>Answer Summary</summary>
-  &emsp;Need Writeup
+  <ol>
+    <li>Search for tools that help you find a username on social media sites.</li>
+    &emsp;&emsp;There are lists on websites such as: https://github.com/jivoi/awesome-osint
+    <li>For this challenge, I used a tool called Sherlock on kali</li>
+    &emsp;&emsp;sudo apt install sherlock
+    <li>Run the command: sherlock 57h3n0_3ury4l3_m3du54</li>
+    <li>Look at https://www.minds.com/57h3n0_3ury4l3_m3du54/ to see the flag.</li>
+  </ol>
 </details>
 
 <details> 
