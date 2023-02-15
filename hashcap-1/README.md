@@ -11,7 +11,7 @@ Hash: `2790e01b73f4db3dbf3613fbe084d2a2de9d1d4d7ce24d8c8d5f47262f2b7ba7`
 Flag format: `clubeh{<cracked_password>}`
 
 <details> 
-  <summary>Hint</summary>
+  <summary>Hints</summary>
   <ol>
     <li>Look up how to crack password hashes... maybe advanced password cracking...</li>
   </ol>
