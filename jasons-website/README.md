@@ -24,18 +24,15 @@ Link: [http://challenges.ctf-2023.clubeh.ca:61214/](http://challenges.ctf-2023.c
   <ol>
    <li>Read server.go, in the login method (handler for POST /login route), there is a function named checkHeaders, it checks for various custom headers and appends different properties to the response body based on the input value of the header. There is a custom header named `X-Env` which allows users to lookup for environment variable values.</li>
    <li>Make a POST request to route /login, with `X-Env` value as `SECRET`, which returns the JSON Web Token signing secret for the cookie.</li>
-    sh curl -X POST -H 'X-Env: SECRET' <url>/login
+    &emsp;sh curl -X POST -H 'X-Env: SECRET' <url>/login
     <li>With the secret for JWT, go to [jwt.io](https://jwt.io), set the payload as:</li>
-    json { "isAdmin": true }
-    and the secret as the secret you got from step 2.
+    &emsp;json { "isAdmin": true }<br>
+    &emsp;and the secret as the secret you got from step 2.
     <li>Copy the encoded token, go to your browser, and for the challenge website, add the cookie named `token`, and the value is the encoded token copied from step 3. Refresh the web page and you should see the flag there. It can similarly achieved using the following curl command.</li>
-    sh curl -H 'Cookie: token=<token>' <url>
+    &emsp;sh curl -H 'Cookie: token=<token>' <url>
+   </ol>
 
-`NOTE`: There is also a 32 characters password `3f*So0gmedVPRsoDD!kxx7fCfjfNkn*FW`, which
-can be used to login directly, the program file contains the bcrypt hash of the password.
-It is almost impossible to get the password using password cracking from the hash,
-therefore the hash is hard coded in the program itself.
-    </ol>
+&emsp;`NOTE`: There is also a 32 characters password `3f*So0gmedVPRsoDD!kxx7fCfjfNkn*FW`, which can be used to login directly, the program file contains the bcrypt hash of the password. It is almost impossible to get the password using password cracking from the hash, therefore the hash is hard coded in the program itself.
 </details>
 
 <details> 
