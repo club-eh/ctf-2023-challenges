@@ -18,13 +18,14 @@ Can you decode this cipher? Our forensics team is unable to figure out the encry
 <details>
   <summary>Answer Summary</summary>
   &emsp;This uses a polybius cipher in a col/row notation. `pegasus` is the starting key as seen below.<br>
-  &emsp;&emsp;--|| 1 | 2 | 3 | 4 | 5 | 6 |<br>
-  &emsp;&emsp;1 || p | e | g | a | s | u |<br>
-  &emsp;&emsp;2 || b | c | d | f | h | i |<br>
-  &emsp;&emsp;3 || j | k | l | m | n | o |<br>
-  &emsp;&emsp;4 || q | r | t | v | w | x |<br>
-  &emsp;&emsp;5 || y | z | 0 | 1 | 2 | 3 |<br>
-  &emsp;&emsp;6 || 4 | 5 | 6 | 7 | 8 | 9 |<br>
+<p>
+  --|| 1 | 2 | 3 | 4 | 5 | 6 |<br>
+  1 || p | e | g | a | s | u |<br>
+  2 || b | c | d | f | h | i |<br>
+  3 || j | k | l | m | n | o |<br>
+  4 || q | r | t | v | w | x |<br>
+  5 || y | z | 0 | 1 | 2 | 3 |<br>6 || 4 | 5 | 6 | 7 | 8 | 9 |<br>
+	</p>
 </details>
 
 <details>
