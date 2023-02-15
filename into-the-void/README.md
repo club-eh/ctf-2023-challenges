@@ -15,7 +15,7 @@ We've discovered an image left behind by one of the hackers of `t3l0s`, we suppo
 </details>
 
 <details> 
-  <summary>Answer summary</summary>
+  <summary>Answer Summary</summary>
   <ol>
     <li>Look up common image steganography techniques, i.e., check hacktricks.xyz</li>
     <ul>
@@ -24,7 +24,7 @@ We've discovered an image left behind by one of the hackers of `t3l0s`, we suppo
     </ul>
     <li>Most Stego-LSB tools will work.</li>
     <ul>
-      <li>the one I used was: https://pypi.org/project/stego-lsb/</li>
+      <li>The one I used was: https://pypi.org/project/stego-lsb/</li>
     </ul>
     <li>Run the stego-lsb tool on the image and it will spit out another image with the flag as a string of text.</li>
   </ol>
