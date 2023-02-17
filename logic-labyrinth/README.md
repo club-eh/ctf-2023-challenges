@@ -15,7 +15,8 @@ To get through the Labyrinth, you must follow the TRUE path.
 
 <details> 
   <summary>Answer Summary</summary>
-  &emsp;Need writeup
+  &emspI uploaded a file called Logic_Labyrinth_Solution.png which show all the true and false pathways.<br>
+  &emspOnly 1 path is true (red) all the way from the beginning to the end.
 </details>
 
 <details> 
