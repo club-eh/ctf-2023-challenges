@@ -266,6 +266,8 @@ Our forensics team ripped this firmware off a strange proprietary electronic dev
 <br>&emsp;&emsp;JUMP TO label7 IF nine IS EQUAL TO nine 	;this will never happen
 </details>
 
+[Alternate writeup by sudoBash418](https://sb418.net/ctfs/writeups/2023-01-15_hackers-odyssey-ctf/kajfehg-n/)
+
 <details> 
   <summary>Flag</summary>
   &emsp;<b>clubeh{e50t3r1c_l4nguage_ej65h34j}</b>
