@@ -2,6 +2,8 @@
 
 <i>Easy Web Challenge by Spaghetti</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Botanic%20Market%200-532848532)
+
 ### Challenge Question
 
 This website is still under development and we think that it may be a front for t3l0s, see what you can find.

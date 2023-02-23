@@ -1,7 +1,9 @@
 # Coordinates
 
 <i>Medium Forensics Challenge by Spaghetti</i>
-		
+
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Coordinates-423728017)
+
 ### Challenge Question
 
 We discovered a t3l0s hideout but they are gone, along with their data. They must have left in a rush because we were able to recover this file. What can you tell us about it?

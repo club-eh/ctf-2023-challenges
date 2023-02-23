@@ -2,6 +2,8 @@
 
 <i>Medium Cryptography Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#hashcap-1-510610603)
+
 ### Challenge Question
 
 We have managed to extract another password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?

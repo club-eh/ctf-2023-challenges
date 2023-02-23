@@ -2,6 +2,8 @@
 
 <i>Hard MISC (Hardware and Forensics) Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Blinkenlights%202-287043646)
+
 ### Challenge Question
 This is the last t3l0s microcontroller we found containing secret messages.
 

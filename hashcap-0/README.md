@@ -2,6 +2,8 @@
 
 <i>Easy Cryptography Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#hashcap-0-510623612)
+
 ### Challenge Question
 
 We have managed to extract a password hash that we think is associated with one of the t3l0s hacker's accounts. Can you crack this hash?

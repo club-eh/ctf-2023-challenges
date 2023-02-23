@@ -2,6 +2,8 @@
 
 <i>Easy Forensics Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#suspic-531828719)
+
 ### Challenge Question
 
 We've discovered an image that we find pretty sus, can you figure out what it's hiding?

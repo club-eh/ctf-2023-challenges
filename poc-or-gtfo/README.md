@@ -2,6 +2,8 @@
 
 <i>Easy MISC Challenge by Spaghetti</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#PoC%20||%20GTFO-499693588)
+
 ### Challenge Question
 
 There is a flag hidden within this PDF newsletter, can you find it?

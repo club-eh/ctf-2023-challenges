@@ -2,6 +2,8 @@
 
 <i>Hard OSINT Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#The%20Search%20for%20Euros-386032178)
+
 ### Challenge Question
 
 We want to get more information on Euros, who has a social media account with the username `57h3n0_3ury4l3_m3du54`.

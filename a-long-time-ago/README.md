@@ -2,6 +2,8 @@
 
 <i>Easy OSINT Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#A%20Long%20Time%20Ago...-290362361)
+
 ### Challenge Question
 
 Wikipedia contains some interesting information about [Echidna](https://en.wikipedia.org/wiki/Echidna_(mythology)) for us, including a list of her offspring.  

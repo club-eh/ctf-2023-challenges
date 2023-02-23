@@ -2,6 +2,8 @@
 
 <i>Medium Web Exploitation Challenge by Spaghetti & sudoBash418</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Olympians-357082918)
+
 ### Challenge Question
 
 This website is known to hold sensitive t3l0s data, what can you find?

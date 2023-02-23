@@ -2,6 +2,8 @@
 
 <i>Easy Cryptography Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Wheely%20Easy-508866847)
+
 ### Challenge Question
 
 Can you decrypt the code to get the flag? We found a tool that might be useful.

@@ -2,6 +2,8 @@
 
 <i>Easy Cryptography Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#zeuszip-290316997)
+
 ### Challenge Question
 
 We've extracted a file from one of t3l0s' hacker's dropbox servers, but the file is password protected. Can you bypass the password protection and read the contents?

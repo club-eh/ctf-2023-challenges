@@ -2,6 +2,8 @@
 
 <i>Medium Web Exploitation Challenge by Arshdeep</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Jason's%20New%20Website-449903064)
+
 ### Challenge Question
 
 Hi! I'm Jason, and I've recently made my very own website using Go!

@@ -2,6 +2,8 @@
 
 <i>Easy Forensics Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Captured%20Data-510784482)
+
 ### Challenge Question
 
 We have managed to capture some web traffic related to one of the attackers, can you decode it?

@@ -2,6 +2,8 @@
 
 <i>Medium MISC (Hardware and Forensics) Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Blinkenlights%200-287036824)
+
 ### Challenge Question
 
 We found some microcontrollers the hackers were using to send each other secret messages.  

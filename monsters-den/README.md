@@ -2,6 +2,8 @@
 
 <i>Easy Web Exploitation Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Monsters%20Den-504502123)
+
 ### Challenge Question
 
 We found one of 4yph0n's old websites still online - maybe these pages have some information we could use to track them down?

@@ -2,6 +2,8 @@
 
 <i>Medium Forensics Challenge by TetraTarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#into-the-void-385468698)
+
 ### Challenge Question
 
 We've discovered an image left behind by one of the hackers of `t3l0s`, we suppose there may be some kind of data or message hidden within this image. Can you retrieve it?

@@ -2,6 +2,8 @@
 
 <i>Medium MISC (Hardware and Forensics) Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Blinkenlights%201-286992215)
+
 ### Challenge Question
 
 Here is another one of the microcontrollers used by t3l0s to send secret messages.

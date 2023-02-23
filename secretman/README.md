@@ -2,6 +2,8 @@
 
 <i>Medium Reverse Engineering Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#secretman-433727525)
+
 ### Challenge Question
 
 We've found what we suspect to be one of the hacker's programs for storing secrets, we believe that a secret key is hidden within the program.

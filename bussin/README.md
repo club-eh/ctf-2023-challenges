@@ -1,7 +1,9 @@
 # Bussin 
 
 <i>Medium Cryptography Challenge by Spaghetti</i>
-		
+
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Bussin-478384891)
+
 ### Challenge Question
 
 Can you decode this cipher? Our forensics team is unable to figure out the encryption, but they did recover the phrase `pegasus` from the rest of the data recovered from t3l0s, that might be helpful.

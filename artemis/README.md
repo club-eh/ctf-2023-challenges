@@ -2,6 +2,8 @@
 
 <i>Medium OSINT Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Artemis-366835191)
+
 ### Challenge Question
 
 One of our challenge creators, Artemis, used to attend the University of Alberta in 2013.  

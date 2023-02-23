@@ -2,6 +2,8 @@
 
 <i>Medium MISC (Digital Logic) Challenge by Artemis</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Logic%20Labyrinth-276040452)
+
 ### Challenge Question
 
 To get through the Labyrinth, you must follow the TRUE path.

@@ -2,6 +2,8 @@
 
 <i>Medium MISC (Artificial Intelligence) Challenge by Spaghetti & sudoBash418</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Botanic%20Market%201-532843979)
+
 ### Challenge Question
 
 This domain has been up for some time, but our systems continue to rank its reputation as very risky. Can you test the website's legitimacy?

@@ -2,6 +2,8 @@
 
 <i>Easy Forensics Challenge by tetratarius</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#More%20Than%20Meets%20the%20Eye-293796090)
+
 ### Challenge Question
 
 We have recovered some data from the hackers. We're sure that they've hidden a message within, can you recover it?

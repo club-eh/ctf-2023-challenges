@@ -2,6 +2,8 @@
 
 <i>Easy <!-- you'd hope --> MISC Challenge by sudoBash418</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#Sanity%20Check-460452660)
+
 ### Challenge Question
 
 <!-- this Discord invite doesn't work anymore -->

@@ -2,6 +2,8 @@
 
 <i>Medium Reverse Engineering Challenge by Spaghetti</i>
 
+[Challenge Archive](https://ctf-2023.clubeh.ca/challenges#kAjfehg%20n-379911899)
+
 ### Challenge Question
 
 Our forensics team ripped this firmware off a strange proprietary electronic device that was confiscated from a t3l0s member. Can you figure out what it does?
