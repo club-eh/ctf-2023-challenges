@@ -33,6 +33,8 @@ We've found what we suspect to be one of the hacker's programs for storing secre
   </ol>
 </details>
 
+[Alternate writeup by sudoBash418](https://sb418.net/ctfs/writeups/2023-01-15_hackers-odyssey-ctf/secretman/)
+
 <details>
   <summary>Flag</summary>
   &emsp;<b>clubeh{tH3s3us_sUcK50rz}</b>
