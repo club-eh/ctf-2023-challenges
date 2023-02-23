@@ -1,4 +1,4 @@
-# Asimovs Second Law
+# Asimov's Second Law
 
 | Category | Difficulty | Solves | Author |
 | --- | --- | :---: | --- |

@@ -1,4 +1,4 @@
-# A long time ago
+# A Long Time Ago...
 
 <i>Easy OSINT Challenge by Artemis</i>
 
