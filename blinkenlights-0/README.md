@@ -27,6 +27,8 @@ One is in grayscale (`-gray`), the other in full RGB.
   &emsp;I created a solve script for color version this challenge. It is located in this folder and called Blinkenlights-0-solve.py
 </details>
 
+[Alternate writeup by sudoBash418](https://sb418.net/ctfs/writeups/2023-01-15_hackers-odyssey-ctf/blinkenlights-0/)
+
 <details>
   <summary>Flag</summary>
   &emsp;<b>clubeh{r3d_@nd_9r33n_65843167}<br>
