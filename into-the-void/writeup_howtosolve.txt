@@ -1,6 +1,0 @@
-1. look up common image steganography techniques, i.e., check hacktricks.xyz
-1a. note that the image is a PNG, some stego techniques are unique to PNG and some may not even work on other formats or others may not work on this format. 
-1b. the bits in the image may be a hint about "Least Significant Bit" steganography.
-2. Most Stego-LSB tools will work.
-2a. the one I used was: https://pypi.org/project/stego-lsb/
-3. run the stego-lsb tool on the image and it will spit out another image with the flag as a string of text.
