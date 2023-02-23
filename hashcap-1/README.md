@@ -23,7 +23,7 @@ Flag format: `clubeh{<cracked_password>}`
   <summary>Answer Summary</summary>
   <ol>
     <li>Put hash into a hash.txt file</li>
-    <li>Run john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt --rules=appendyears</li>
+    <li>Run `john --format=raw-sha256 hash.txt --wordlist=usr/share/wordlists/rockyou.txt --rules=appendyears`</li>
     <li>Copy and paste the password as the flag :)</li>
   </ol>
 </details>
