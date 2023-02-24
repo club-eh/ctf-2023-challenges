@@ -9,7 +9,12 @@ Please note that our dynamic challenges have been taken down; however, you can s
 
 ## Description
 
-Meant to be deployed using [sudoBash418's challenge toolkit](https://github.com/club-eh/ctf-challenge-toolkit).
+This repo is meant to be deployed to a CTFd instance using [sudoBash418's ctf-challenge-toolkit](https://github.com/club-eh/ctf-challenge-toolkit).
+
+We used a modified version of CTFd during the event, which can be found [here](https://github.com/club-eh/CTFd/tree/ctf-2023-deploy).  
+Our CTFd theme can be found [here](https://github.com/club-eh/ctfd-theme/tree/hackers-odyssey).
+
+The infrastructure used to host our CTF can be found [here](https://github.com/club-eh/ctf-2023-infrastructure).
 
 
 ### Flag Format
