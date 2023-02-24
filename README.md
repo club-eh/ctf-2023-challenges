@@ -1,6 +1,13 @@
 # club.eh 2023 CTF - Challenge Repository
 
-Contains challenge files and associated configuration.
+This repo contains the challenges released during club.eh's 2023 CTF: Hacker's Odyssey.
+
+**We have archived our CTF website: [https://ctf-2023.clubeh.ca/](https://ctf-2023.clubeh.ca/)**  
+Please note that our dynamic challenges have been taken down; however, you can still host them yourself using the files from this repo.
+
+---
+
+## Description
 
 Meant to be deployed using [sudoBash418's challenge toolkit](https://github.com/club-eh/ctf-challenge-toolkit).
 
