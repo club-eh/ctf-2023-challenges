@@ -1,6 +1,6 @@
 # syntax=docker.io/docker/dockerfile:1.4
 
-FROM cgr.dev/chainguard/go:1.19-musl as build
+FROM docker.io/library/golang:1.19-alpine as build
 
 WORKDIR /build
 
